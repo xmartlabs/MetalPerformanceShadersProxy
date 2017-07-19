@@ -13,6 +13,20 @@ FOUNDATION_EXPORT double MetalKitStubVersionNumber;
 //! Project version string for MetalKitStub.
 FOUNDATION_EXPORT const unsigned char MetalKitStubVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <MetalKitStub/PublicHeader.h>
-
-
+#import "MPSCNN.h"
+#import "MPSImage.h"
+#import "MPSImageConversion.h"
+#import "MPSImageConvolution.h"
+#import "MPSImageHistogram.h"
+#import "MPSImageIntegral.h"
+#import "MPSImageKernel.h"
+#import "MPSImageMedian.h"
+#import "MPSimageMorphology.h"
+#import "MPSImageResampling.h"
+#import "MPSImageThreshold.h"
+#import "MPSImageTranspose.h"
+#import "MPSImageConversion.h"
+#import "MPSKernel.h"
+#import "MPSMatrix.h"
+#import "MPSMatrixMultiplication.h"
+#import "MPSTypes.h"
