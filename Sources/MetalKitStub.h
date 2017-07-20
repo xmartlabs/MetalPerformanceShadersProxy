@@ -21,7 +21,7 @@ FOUNDATION_EXPORT const unsigned char MetalKitStubVersionString[];
 #import "MPSImageIntegral.h"
 #import "MPSImageKernel.h"
 #import "MPSImageMedian.h"
-#import "MPSimageMorphology.h"
+#import "MPSImageMorphology.h"
 #import "MPSImageResampling.h"
 #import "MPSImageThreshold.h"
 #import "MPSImageTranspose.h"

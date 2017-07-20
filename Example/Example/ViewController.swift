@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
         
-        let image = MPSImageDescriptor()
+        let _ = MPSImageDescriptor()
     }
 
 
