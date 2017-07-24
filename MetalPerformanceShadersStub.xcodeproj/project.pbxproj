@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		287D0A6E1C4B73BD004566D6 /* MetalKitStubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D0A6D1C4B73BD004566D6 /* MetalKitStubTests.swift */; };
+		28F828811C494B2C00330CF4 /* MetalPerformanceShadersStub.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F828801C494B2C00330CF4 /* MetalPerformanceShadersStub.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28F828881C494B2C00330CF4 /* MetalPerformanceShadersStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* MetalPerformanceShadersStub.framework */; };
+		8F302E7E1F213534000D2AEE /* MPSCNN.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F302E7D1F213534000D2AEE /* MPSCNN.m */; };
+		C18980C75D72CE41B3695D4B /* MPSImageMorphology.m in Sources */ = {isa = PBXBuildFile; fileRef = C1898F4E01CDB54E5D742401 /* MPSImageMorphology.m */; };
+		C18981311C37F03EEC1D01A1 /* MPSImageKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = C1898E6AFFB0E6808E2B021C /* MPSImageKernel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C189814A091693F27191EEE6 /* MPSImageKernel.m in Sources */ = {isa = PBXBuildFile; fileRef = C1898DA8191E33E8253D0A67 /* MPSImageKernel.m */; };
+		C1898434DD1D85AC47ECE7FE /* MPSImageConvolution.m in Sources */ = {isa = PBXBuildFile; fileRef = C189884E60D5A9F4B2CCE657 /* MPSImageConvolution.m */; };
+		C189853C85BC6D86F6560499 /* MPSImageHistogram.h in Headers */ = {isa = PBXBuildFile; fileRef = C1898652AA4E1CD459894AD5 /* MPSImageHistogram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C18985A4D34D1465A6605863 /* MPSImageMedian.h in Headers */ = {isa = PBXBuildFile; fileRef = C18980B4098DFCE22FA08E40 /* MPSImageMedian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1898737203CD3D3F0E04C71 /* MPSMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = C1898FED09507947BDBBE2D8 /* MPSMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C18987882507EB5F7CB3B807 /* MPSKernel.m in Sources */ = {isa = PBXBuildFile; fileRef = C189894FD47FFE14815D0588 /* MPSKernel.m */; };
+		C189883360495E5B8F8D2581 /* MPSImageMorphology.h in Headers */ = {isa = PBXBuildFile; fileRef = C1898F66E1ABA61C603FFC0E /* MPSImageMorphology.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C18988B5802E6926E8C49F3A /* MPSImageResampling.m in Sources */ = {isa = PBXBuildFile; fileRef = C18985D5B05BBE2448375DB9 /* MPSImageResampling.m */; };
+		C18988C2235AFCBDA3DA7273 /* MPSImageConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = C189834A293E4D1A8CE25A16 /* MPSImageConversion.m */; };
+		C1898A3BB8EC70D0BACAE138 /* MPSImageTranspose.h in Headers */ = {isa = PBXBuildFile; fileRef = C18988D844C1DE36CD585DDF /* MPSImageTranspose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1898A95A0F6725FEE015481 /* MPSImageThreshold.m in Sources */ = {isa = PBXBuildFile; fileRef = C18986A6CDB1ABF1609FD112 /* MPSImageThreshold.m */; };
+		C1898BBD647CAB005CAD667B /* MPSImageIntegral.m in Sources */ = {isa = PBXBuildFile; fileRef = C18984D8B71237A0632AED4D /* MPSImageIntegral.m */; };
+		C1898C17C069AABD8B990125 /* MPSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C1898BCA5EA6C149FE094203 /* MPSImage.m */; };
+		C1898C6800FBE985AEE1ABF7 /* MPSImageThreshold.h in Headers */ = {isa = PBXBuildFile; fileRef = C18983A000915F383AD7DDC2 /* MPSImageThreshold.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1898CB668B8A0B115E92EF9 /* MPSImageResampling.h in Headers */ = {isa = PBXBuildFile; fileRef = C1898A9906066D57E9C8C07D /* MPSImageResampling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1898CFCB8E95940BC2C6EF9 /* MPSMatrixMultiplication.h in Headers */ = {isa = PBXBuildFile; fileRef = C1898D3E319CFB01E409AB18 /* MPSMatrixMultiplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1898D612525475E591FFA9E /* MPSImageConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = C1898BDDD44341E005499DEB /* MPSImageConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1898DCA6F8F695228537602 /* MPSImageHistogram.m in Sources */ = {isa = PBXBuildFile; fileRef = C18984826DD02FE4FB4E5562 /* MPSImageHistogram.m */; };
+		C1898DF3D5CA35B8BFB45923 /* MPSImageMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = C18983432C099C90C0B990FF /* MPSImageMedian.m */; };
+		C1898E62229EEA05393DA771 /* MPSImageIntegral.h in Headers */ = {isa = PBXBuildFile; fileRef = C18980B725086FB4AE1AAAAB /* MPSImageIntegral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1898EB3FE1197DC1F1F07AB /* MPSImageConvolution.h in Headers */ = {isa = PBXBuildFile; fileRef = C189809B1958825CCDD8AD2A /* MPSImageConvolution.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1898ED6C39E0CC1DBE6D459 /* MPSMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = C18980F9F407D2944505A38D /* MPSMatrix.m */; };
+		C1898ED70DD90F4EA45FEBDE /* MPSMatrixMultiplication.m in Sources */ = {isa = PBXBuildFile; fileRef = C1898444A17A5EAB48CEE8C4 /* MPSMatrixMultiplication.m */; };
+		C1898F8A706ADDB744EF8304 /* MPSImageTranspose.m in Sources */ = {isa = PBXBuildFile; fileRef = C18982D8954D0F815B079991 /* MPSImageTranspose.m */; };
+		CB8479F31F20FE3E0094AF19 /* MPSCNN.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5FD0F31F1FF5AC0095545F /* MPSCNN.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB8479F41F20FE470094AF19 /* MPSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5FD0F51F1FF8CB0095545F /* MPSImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB8479FF1F20FE730094AF19 /* MPSKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5FD1011F20F41B0095545F /* MPSKernel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB847A031F20FE7E0094AF19 /* MPSTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5FD1041F20F4600095545F /* MPSTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28F828891C494B2C00330CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28F828741C494B2C00330CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28F8287C1C494B2C00330CF4;
+			remoteInfo = MetalKitStub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		287D0A6D1C4B73BD004566D6 /* MetalKitStubTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetalKitStubTests.swift; path = Tests/MetalKitStubTests.swift; sourceTree = SOURCE_ROOT; };
+		28F8287D1C494B2C00330CF4 /* MetalPerformanceShadersStub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MetalPerformanceShadersStub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F828801C494B2C00330CF4 /* MetalPerformanceShadersStub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetalPerformanceShadersStub.h; sourceTree = "<group>"; };
+		28F828821C494B2C00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F828871C494B2C00330CF4 /* MetalPerformanceShadersStubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalPerformanceShadersStubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F8288E1C494B2C00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Tests/Info.plist; sourceTree = "<group>"; };
+		28F8289B1C494BF100330CF4 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Playground.playground; path = Example/Playground.playground; sourceTree = "<group>"; };
+		46FEC79C1F26577F00ADE379 /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
+		8F302E7D1F213534000D2AEE /* MPSCNN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSCNN.m; path = MPS/MPSCNN.m; sourceTree = "<group>"; };
+		C189809B1958825CCDD8AD2A /* MPSImageConvolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageConvolution.h; path = MPS/MPSImageConvolution.h; sourceTree = "<group>"; };
+		C18980B4098DFCE22FA08E40 /* MPSImageMedian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageMedian.h; path = MPS/MPSImageMedian.h; sourceTree = "<group>"; };
+		C18980B725086FB4AE1AAAAB /* MPSImageIntegral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageIntegral.h; path = MPS/MPSImageIntegral.h; sourceTree = "<group>"; };
+		C18980F9F407D2944505A38D /* MPSMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSMatrix.m; path = MPS/MPSMatrix.m; sourceTree = "<group>"; };
+		C18982D8954D0F815B079991 /* MPSImageTranspose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageTranspose.m; path = MPS/MPSImageTranspose.m; sourceTree = "<group>"; };
+		C18983432C099C90C0B990FF /* MPSImageMedian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageMedian.m; path = MPS/MPSImageMedian.m; sourceTree = "<group>"; };
+		C189834A293E4D1A8CE25A16 /* MPSImageConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageConversion.m; path = MPS/MPSImageConversion.m; sourceTree = "<group>"; };
+		C18983A000915F383AD7DDC2 /* MPSImageThreshold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageThreshold.h; path = MPS/MPSImageThreshold.h; sourceTree = "<group>"; };
+		C1898444A17A5EAB48CEE8C4 /* MPSMatrixMultiplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSMatrixMultiplication.m; path = MPS/MPSMatrixMultiplication.m; sourceTree = "<group>"; };
+		C18984826DD02FE4FB4E5562 /* MPSImageHistogram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageHistogram.m; path = MPS/MPSImageHistogram.m; sourceTree = "<group>"; };
+		C18984D8B71237A0632AED4D /* MPSImageIntegral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageIntegral.m; path = MPS/MPSImageIntegral.m; sourceTree = "<group>"; };
+		C18985D5B05BBE2448375DB9 /* MPSImageResampling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageResampling.m; path = MPS/MPSImageResampling.m; sourceTree = "<group>"; };
+		C1898652AA4E1CD459894AD5 /* MPSImageHistogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageHistogram.h; path = MPS/MPSImageHistogram.h; sourceTree = "<group>"; };
+		C18986A6CDB1ABF1609FD112 /* MPSImageThreshold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageThreshold.m; path = MPS/MPSImageThreshold.m; sourceTree = "<group>"; };
+		C189884E60D5A9F4B2CCE657 /* MPSImageConvolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageConvolution.m; path = MPS/MPSImageConvolution.m; sourceTree = "<group>"; };
+		C18988D844C1DE36CD585DDF /* MPSImageTranspose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageTranspose.h; path = MPS/MPSImageTranspose.h; sourceTree = "<group>"; };
+		C189894FD47FFE14815D0588 /* MPSKernel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSKernel.m; path = MPS/MPSKernel.m; sourceTree = "<group>"; };
+		C1898A9906066D57E9C8C07D /* MPSImageResampling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageResampling.h; path = MPS/MPSImageResampling.h; sourceTree = "<group>"; };
+		C1898BCA5EA6C149FE094203 /* MPSImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImage.m; path = MPS/MPSImage.m; sourceTree = "<group>"; };
+		C1898BDDD44341E005499DEB /* MPSImageConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageConversion.h; path = MPS/MPSImageConversion.h; sourceTree = "<group>"; };
+		C1898D3E319CFB01E409AB18 /* MPSMatrixMultiplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSMatrixMultiplication.h; path = MPS/MPSMatrixMultiplication.h; sourceTree = "<group>"; };
+		C1898DA8191E33E8253D0A67 /* MPSImageKernel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageKernel.m; path = MPS/MPSImageKernel.m; sourceTree = "<group>"; };
+		C1898E6AFFB0E6808E2B021C /* MPSImageKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageKernel.h; path = MPS/MPSImageKernel.h; sourceTree = "<group>"; };
+		C1898F4E01CDB54E5D742401 /* MPSImageMorphology.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageMorphology.m; path = MPS/MPSImageMorphology.m; sourceTree = "<group>"; };
+		C1898F66E1ABA61C603FFC0E /* MPSImageMorphology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageMorphology.h; path = MPS/MPSImageMorphology.h; sourceTree = "<group>"; };
+		C1898FED09507947BDBBE2D8 /* MPSMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSMatrix.h; path = MPS/MPSMatrix.h; sourceTree = "<group>"; };
+		CB5FD0F31F1FF5AC0095545F /* MPSCNN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSCNN.h; path = MPS/MPSCNN.h; sourceTree = "<group>"; };
+		CB5FD0F51F1FF8CB0095545F /* MPSImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImage.h; path = MPS/MPSImage.h; sourceTree = "<group>"; };
+		CB5FD1011F20F41B0095545F /* MPSKernel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPSKernel.h; path = MPS/MPSKernel.h; sourceTree = "<group>"; };
+		CB5FD1041F20F4600095545F /* MPSTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPSTypes.h; path = MPS/MPSTypes.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28F828791C494B2C00330CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F828841C494B2C00330CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F828881C494B2C00330CF4 /* MetalPerformanceShadersStub.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28F828731C494B2C00330CF4 = {
+			isa = PBXGroup;
+			children = (
+				28F8289B1C494BF100330CF4 /* Playground.playground */,
+				28F828971C494B4200330CF4 /* Sources */,
+				28F8288B1C494B2C00330CF4 /* Tests */,
+				28F8287E1C494B2C00330CF4 /* Products */,
+				46FEC79B1F26577F00ADE379 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28F8287E1C494B2C00330CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28F8287D1C494B2C00330CF4 /* MetalPerformanceShadersStub.framework */,
+				28F828871C494B2C00330CF4 /* MetalPerformanceShadersStubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28F8288B1C494B2C00330CF4 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				28F8288E1C494B2C00330CF4 /* Info.plist */,
+				287D0A6D1C4B73BD004566D6 /* MetalKitStubTests.swift */,
+			);
+			name = Tests;
+			path = MetalKitStubTests;
+			sourceTree = "<group>";
+		};
+		28F828971C494B4200330CF4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FD0F21F1FF4990095545F /* MPS */,
+				28F828801C494B2C00330CF4 /* MetalPerformanceShadersStub.h */,
+				28F828821C494B2C00330CF4 /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		46FEC79B1F26577F00ADE379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46FEC79C1F26577F00ADE379 /* MetalPerformanceShaders.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB5FD0F21F1FF4990095545F /* MPS */ = {
+			isa = PBXGroup;
+			children = (
+				8F302E7D1F213534000D2AEE /* MPSCNN.m */,
+				CB5FD0F31F1FF5AC0095545F /* MPSCNN.h */,
+				CB5FD0F51F1FF8CB0095545F /* MPSImage.h */,
+				CB5FD1011F20F41B0095545F /* MPSKernel.h */,
+				CB5FD1041F20F4600095545F /* MPSTypes.h */,
+				C1898BCA5EA6C149FE094203 /* MPSImage.m */,
+				C189894FD47FFE14815D0588 /* MPSKernel.m */,
+				C1898BDDD44341E005499DEB /* MPSImageConversion.h */,
+				C189809B1958825CCDD8AD2A /* MPSImageConvolution.h */,
+				C1898652AA4E1CD459894AD5 /* MPSImageHistogram.h */,
+				C18980B725086FB4AE1AAAAB /* MPSImageIntegral.h */,
+				C1898E6AFFB0E6808E2B021C /* MPSImageKernel.h */,
+				C18980B4098DFCE22FA08E40 /* MPSImageMedian.h */,
+				C1898A9906066D57E9C8C07D /* MPSImageResampling.h */,
+				C18983A000915F383AD7DDC2 /* MPSImageThreshold.h */,
+				C18988D844C1DE36CD585DDF /* MPSImageTranspose.h */,
+				C1898FED09507947BDBBE2D8 /* MPSMatrix.h */,
+				C1898D3E319CFB01E409AB18 /* MPSMatrixMultiplication.h */,
+				C18980F9F407D2944505A38D /* MPSMatrix.m */,
+				C1898DA8191E33E8253D0A67 /* MPSImageKernel.m */,
+				C189834A293E4D1A8CE25A16 /* MPSImageConversion.m */,
+				C189884E60D5A9F4B2CCE657 /* MPSImageConvolution.m */,
+				C18984826DD02FE4FB4E5562 /* MPSImageHistogram.m */,
+				C18984D8B71237A0632AED4D /* MPSImageIntegral.m */,
+				C18983432C099C90C0B990FF /* MPSImageMedian.m */,
+				C18985D5B05BBE2448375DB9 /* MPSImageResampling.m */,
+				C18986A6CDB1ABF1609FD112 /* MPSImageThreshold.m */,
+				C18982D8954D0F815B079991 /* MPSImageTranspose.m */,
+				C1898444A17A5EAB48CEE8C4 /* MPSMatrixMultiplication.m */,
+				C1898F66E1ABA61C603FFC0E /* MPSImageMorphology.h */,
+				C1898F4E01CDB54E5D742401 /* MPSImageMorphology.m */,
+			);
+			name = MPS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28F8287A1C494B2C00330CF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB847A031F20FE7E0094AF19 /* MPSTypes.h in Headers */,
+				28F828811C494B2C00330CF4 /* MetalPerformanceShadersStub.h in Headers */,
+				CB8479FF1F20FE730094AF19 /* MPSKernel.h in Headers */,
+				CB8479F41F20FE470094AF19 /* MPSImage.h in Headers */,
+				CB8479F31F20FE3E0094AF19 /* MPSCNN.h in Headers */,
+				C1898D612525475E591FFA9E /* MPSImageConversion.h in Headers */,
+				C1898EB3FE1197DC1F1F07AB /* MPSImageConvolution.h in Headers */,
+				C189853C85BC6D86F6560499 /* MPSImageHistogram.h in Headers */,
+				C1898E62229EEA05393DA771 /* MPSImageIntegral.h in Headers */,
+				C18981311C37F03EEC1D01A1 /* MPSImageKernel.h in Headers */,
+				C18985A4D34D1465A6605863 /* MPSImageMedian.h in Headers */,
+				C1898CB668B8A0B115E92EF9 /* MPSImageResampling.h in Headers */,
+				C1898C6800FBE985AEE1ABF7 /* MPSImageThreshold.h in Headers */,
+				C1898A3BB8EC70D0BACAE138 /* MPSImageTranspose.h in Headers */,
+				C1898737203CD3D3F0E04C71 /* MPSMatrix.h in Headers */,
+				C1898CFCB8E95940BC2C6EF9 /* MPSMatrixMultiplication.h in Headers */,
+				C189883360495E5B8F8D2581 /* MPSImageMorphology.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28F8287C1C494B2C00330CF4 /* MetalPerformanceShadersStub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F828911C494B2C00330CF4 /* Build configuration list for PBXNativeTarget "MetalPerformanceShadersStub" */;
+			buildPhases = (
+				28F828781C494B2C00330CF4 /* Sources */,
+				28F828791C494B2C00330CF4 /* Frameworks */,
+				28F8287A1C494B2C00330CF4 /* Headers */,
+				28F8287B1C494B2C00330CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalPerformanceShadersStub;
+			productName = MetalKitStub;
+			productReference = 28F8287D1C494B2C00330CF4 /* MetalPerformanceShadersStub.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		28F828861C494B2C00330CF4 /* MetalPerformanceShadersStubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F828941C494B2C00330CF4 /* Build configuration list for PBXNativeTarget "MetalPerformanceShadersStubTests" */;
+			buildPhases = (
+				28F828831C494B2C00330CF4 /* Sources */,
+				28F828841C494B2C00330CF4 /* Frameworks */,
+				28F828851C494B2C00330CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28F8288A1C494B2C00330CF4 /* PBXTargetDependency */,
+			);
+			name = MetalPerformanceShadersStubTests;
+			productName = MetalKitStubTests;
+			productReference = 28F828871C494B2C00330CF4 /* MetalPerformanceShadersStubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28F828741C494B2C00330CF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0800;
+				TargetAttributes = {
+					28F8287C1C494B2C00330CF4 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
+					};
+					28F828861C494B2C00330CF4 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 28F828771C494B2C00330CF4 /* Build configuration list for PBXProject "MetalPerformanceShadersStub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28F828731C494B2C00330CF4;
+			productRefGroup = 28F8287E1C494B2C00330CF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28F8287C1C494B2C00330CF4 /* MetalPerformanceShadersStub */,
+				28F828861C494B2C00330CF4 /* MetalPerformanceShadersStubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28F8287B1C494B2C00330CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F828851C494B2C00330CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28F828781C494B2C00330CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F302E7E1F213534000D2AEE /* MPSCNN.m in Sources */,
+				C1898C17C069AABD8B990125 /* MPSImage.m in Sources */,
+				C18987882507EB5F7CB3B807 /* MPSKernel.m in Sources */,
+				C1898ED6C39E0CC1DBE6D459 /* MPSMatrix.m in Sources */,
+				C189814A091693F27191EEE6 /* MPSImageKernel.m in Sources */,
+				C18988C2235AFCBDA3DA7273 /* MPSImageConversion.m in Sources */,
+				C1898434DD1D85AC47ECE7FE /* MPSImageConvolution.m in Sources */,
+				C1898DCA6F8F695228537602 /* MPSImageHistogram.m in Sources */,
+				C1898BBD647CAB005CAD667B /* MPSImageIntegral.m in Sources */,
+				C1898DF3D5CA35B8BFB45923 /* MPSImageMedian.m in Sources */,
+				C18988B5802E6926E8C49F3A /* MPSImageResampling.m in Sources */,
+				C1898A95A0F6725FEE015481 /* MPSImageThreshold.m in Sources */,
+				C1898F8A706ADDB744EF8304 /* MPSImageTranspose.m in Sources */,
+				C1898ED70DD90F4EA45FEBDE /* MPSMatrixMultiplication.m in Sources */,
+				C18980C75D72CE41B3695D4B /* MPSImageMorphology.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F828831C494B2C00330CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287D0A6E1C4B73BD004566D6 /* MetalKitStubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28F8288A1C494B2C00330CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28F8287C1C494B2C00330CF4 /* MetalPerformanceShadersStub */;
+			targetProxy = 28F828891C494B2C00330CF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28F8288F1C494B2C00330CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28F828901C494B2C00330CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28F828921C494B2C00330CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmartlabs.MetalPerformanceShadersStub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		28F828931C494B2C00330CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmartlabs.MetalPerformanceShadersStub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		28F828951C494B2C00330CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmartlabs.MetalKitStubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		28F828961C494B2C00330CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmartlabs.MetalKitStubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28F828771C494B2C00330CF4 /* Build configuration list for PBXProject "MetalPerformanceShadersStub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F8288F1C494B2C00330CF4 /* Debug */,
+				28F828901C494B2C00330CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F828911C494B2C00330CF4 /* Build configuration list for PBXNativeTarget "MetalPerformanceShadersStub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F828921C494B2C00330CF4 /* Debug */,
+				28F828931C494B2C00330CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F828941C494B2C00330CF4 /* Build configuration list for PBXNativeTarget "MetalPerformanceShadersStubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F828951C494B2C00330CF4 /* Debug */,
+				28F828961C494B2C00330CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28F828741C494B2C00330CF4 /* Project object */;
+}

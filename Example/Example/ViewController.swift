@@ -6,22 +6,15 @@
 //
 
 import UIKit
-import MetalKitStub
+import Metal
+import MetalPerformanceShadersProxy
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let device = MTLCreateSystemDefaultDevice()!
+        let _ = MPSImage.init(device: device, imageDescriptor: MPSImageDescriptor())
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-        
-        let _ = MPSImageDescriptor()
-    }
-
 
 }
-
