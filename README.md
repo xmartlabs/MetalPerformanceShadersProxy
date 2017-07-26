@@ -11,8 +11,6 @@
 
 By [Xmartlabs SRL](http://xmartlabs.com)
 
---
-
 A proxy for **MetalPerformanceShaders** which takes to a **stub on a simulator** and to the **real implementation on iOS devices**. It works both for Swift and Objective-C.
 
 It's usually a problem not to be able to **compile** for a simulator target when using Metal shaders. By using this proxy, you are being able to compile and to *run* on simulators. Note that trying to run the Metal shaders on a simulator will fail. Nevertheless, it allows a project that implements Metal shaders to:
