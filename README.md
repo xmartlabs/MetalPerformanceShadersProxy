@@ -19,7 +19,6 @@ It's usually a problem not to be able to **compile** for a simulator target when
 * Make a framework to work with Carthage.
 * Run an app on a simulator to use features that don't depend on Metal shaders.
 * Test automatically (maybe with a CI server) with simulators the parts of an app that don't depend on Metal shaders.
-* Compile the project requiring no device to be connected :smile:
 
 ## Usage
 
