@@ -9,7 +9,7 @@
 <a href="https://raw.githubusercontent.com/xmartlabs/MetalPerformanceShadersProxy/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License: MIT" /></a>
 </p>
 
-By [Xmartlabs SRL](http://xmartlabs.com).
+By [Xmartlabs SRL](http://xmartlabs.com)
 
 ## Introduction
 
@@ -80,11 +80,11 @@ If you use **MetalPerformanceShadersProxy** in your app, we would love to hear a
 
 Follow these 3 steps to run Example project: clone MetalPerformanceShadersProxy repository, open MetalPerformanceShadersProxy workspace and run the *Example* project.
 
-You can also experiment and learn with the *MetalPerformanceShadersProxy Playground* which is contained in *MetalPerformanceShadersProxy.workspace*.
+TODO: add Bender example
 
 ## Installation
 
-#### CocoaPods
+### CocoaPods
 
 [CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects.
 
@@ -100,7 +100,7 @@ If you just want the stub:
 pod 'MetalPerformanceShadersProxy/Stub', '~> 1.0'
 ```
 
-#### Carthage
+### Carthage
 
 [Carthage](https://github.com/Carthage/Carthage) is a simple, decentralized dependency manager for Cocoa.
 
@@ -114,6 +114,6 @@ github "xmartlabs/MetalPerformanceShadersProxy" ~> 1.0
 
 * [Xmartlabs SRL](https://github.com/xmartlabs) ([@xmartlabs](https://twitter.com/xmartlabs))
 
-# Change Log
+## Changelog
 
-This can be found in the [CHANGELOG.md](CHANGELOG.md) file.
+It can be found in the [CHANGELOG.md](CHANGELOG.md) file.
