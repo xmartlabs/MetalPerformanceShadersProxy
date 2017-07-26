@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		287D0A6E1C4B73BD004566D6 /* MetalKitStubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D0A6D1C4B73BD004566D6 /* MetalKitStubTests.swift */; };
+		287D0A6E1C4B73BD004566D6 /* MetalPerformanceShadersProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D0A6D1C4B73BD004566D6 /* MetalPerformanceShadersProxyTests.swift */; };
 		28F828811C494B2C00330CF4 /* MetalPerformanceShadersStub.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F828801C494B2C00330CF4 /* MetalPerformanceShadersStub.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28F828881C494B2C00330CF4 /* MetalPerformanceShadersStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* MetalPerformanceShadersStub.framework */; };
 		8F302E7E1F213534000D2AEE /* MPSCNN.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F302E7D1F213534000D2AEE /* MPSCNN.m */; };
@@ -49,12 +49,12 @@
 			containerPortal = 28F828741C494B2C00330CF4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 28F8287C1C494B2C00330CF4;
-			remoteInfo = MetalKitStub;
+			remoteInfo = MetalPerformanceShadersProxy;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		287D0A6D1C4B73BD004566D6 /* MetalKitStubTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetalKitStubTests.swift; path = Tests/MetalKitStubTests.swift; sourceTree = SOURCE_ROOT; };
+		287D0A6D1C4B73BD004566D6 /* MetalPerformanceShadersProxyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetalPerformanceShadersProxyTests.swift; path = Tests/MetalPerformanceShadersProxyTests.swift; sourceTree = SOURCE_ROOT; };
 		28F8287D1C494B2C00330CF4 /* MetalPerformanceShadersStub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MetalPerformanceShadersStub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F828801C494B2C00330CF4 /* MetalPerformanceShadersStub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetalPerformanceShadersStub.h; sourceTree = "<group>"; };
 		28F828821C494B2C00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -138,10 +138,10 @@
 			isa = PBXGroup;
 			children = (
 				28F8288E1C494B2C00330CF4 /* Info.plist */,
-				287D0A6D1C4B73BD004566D6 /* MetalKitStubTests.swift */,
+				287D0A6D1C4B73BD004566D6 /* MetalPerformanceShadersProxyTests.swift */,
 			);
 			name = Tests;
-			path = MetalKitStubTests;
+			path = MetalPerformanceShadersProxyTests;
 			sourceTree = "<group>";
 		};
 		28F828971C494B4200330CF4 /* Sources */ = {
@@ -244,7 +244,7 @@
 			dependencies = (
 			);
 			name = MetalPerformanceShadersStub;
-			productName = MetalKitStub;
+			productName = MetalPerformanceShadersProxy;
 			productReference = 28F8287D1C494B2C00330CF4 /* MetalPerformanceShadersStub.framework */;
 			productType = "com.apple.product-type.framework";
 		};
@@ -262,7 +262,7 @@
 				28F8288A1C494B2C00330CF4 /* PBXTargetDependency */,
 			);
 			name = MetalPerformanceShadersStubTests;
-			productName = MetalKitStubTests;
+			productName = MetalPerformanceShadersProxyTests;
 			productReference = 28F828871C494B2C00330CF4 /* MetalPerformanceShadersStubTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -347,7 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				287D0A6E1C4B73BD004566D6 /* MetalKitStubTests.swift in Sources */,
+				287D0A6E1C4B73BD004566D6 /* MetalPerformanceShadersProxyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +503,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xmartlabs.MetalKitStubTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmartlabs.MetalPerformanceShadersProxyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -516,7 +516,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xmartlabs.MetalKitStubTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmartlabs.MetalPerformanceShadersProxyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

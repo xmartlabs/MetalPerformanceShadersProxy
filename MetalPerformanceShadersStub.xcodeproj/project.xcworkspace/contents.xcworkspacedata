@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MetalKitStub.xcodeproj">
+      location = "self:MetalPerformanceShadersProxy.xcodeproj">
    </FileRef>
 </Workspace>
