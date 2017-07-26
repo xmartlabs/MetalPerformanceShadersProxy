@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		467E29681F27F51F000E99B5 /* MTLFunctionConstantValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 467E29671F27F51F000E99B5 /* MTLFunctionConstantValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		467E296A1F27F800000E99B5 /* MTLFunctionConstantValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 467E29691F27F800000E99B5 /* MTLFunctionConstantValues.m */; };
 		46C5A8DE1F27C660006E0D08 /* MetalPerformanceShadersStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C5A8D41F27C660006E0D08 /* MetalPerformanceShadersStub.framework */; };
 		46C5A8E31F27C660006E0D08 /* MetalPerformanceShadersStubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8E21F27C660006E0D08 /* MetalPerformanceShadersStubTests.m */; };
@@ -56,7 +55,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		467E29671F27F51F000E99B5 /* MTLFunctionConstantValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLFunctionConstantValues.h; path = Metal/MTLFunctionConstantValues.h; sourceTree = "<group>"; };
 		467E29691F27F800000E99B5 /* MTLFunctionConstantValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTLFunctionConstantValues.m; path = Metal/MTLFunctionConstantValues.m; sourceTree = "<group>"; };
 		46C5A8D41F27C660006E0D08 /* MetalPerformanceShadersStub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MetalPerformanceShadersStub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46C5A8D71F27C660006E0D08 /* MetalPerformanceShadersStub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetalPerformanceShadersStub.h; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 		467E29661F27F35F000E99B5 /* Metal */ = {
 			isa = PBXGroup;
 			children = (
-				467E29671F27F51F000E99B5 /* MTLFunctionConstantValues.h */,
 				467E29691F27F800000E99B5 /* MTLFunctionConstantValues.m */,
 			);
 			name = Metal;
@@ -224,7 +221,6 @@
 				46C5A91F1F27C6AC006E0D08 /* MPSImageConversion.h in Headers */,
 				46C5A91E1F27C6AC006E0D08 /* MPSTypes.h in Headers */,
 				46C5A9271F27C6AC006E0D08 /* MPSImageThreshold.h in Headers */,
-				467E29681F27F51F000E99B5 /* MTLFunctionConstantValues.h in Headers */,
 				46C5A9251F27C6AC006E0D08 /* MPSImageResampling.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

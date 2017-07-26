@@ -6,7 +6,7 @@
 //  Copyright © 2017 Xmartlabs. All rights reserved.
 //
 
-#import "MTLFunctionConstantValues.h"
+#import <Metal/Metal.h>
 
 @implementation MTLFunctionConstantValues
 
