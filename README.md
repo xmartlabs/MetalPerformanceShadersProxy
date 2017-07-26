@@ -13,16 +13,23 @@ By [Xmartlabs SRL](http://xmartlabs.com).
 
 ## Introduction
 
-MetalPerformanceShadersProxy is a library to .......
+A proxy for **MetalPerformanceShaders** which takes to a **stub on a simulator** and to the **real implementation on iOS devices**. It works both for Swift and Objective-C.
 
-<!-- <img src="Example/MetalPerformanceShadersProxy.gif" width="300"/> -->
+It's usually a problem not to be able to **compile** for a simulator target when using Metal shaders. By using this proxy, you are being able to compile and to *run* on simulators. Note that trying to run the Metal shaders on a simulator will fail. Nevertheless, it allows a project that implements Metal shaders to:
+
+* Upload a pod to CocoaPods.
+* Make a framework to work with Carthage.
+* Run an app on a simulator to use features that don't depend on Metal shaders.
+* Test automatically (maybe with a CI server) with simulators the parts of an app that don't depend on Metal shaders.
+* Compile the project requiring no device to be connected :smile:
 
 ## Usage
 
-```swift
-import MetalPerformanceShadersProxy
-// ...
-```
+You need to change every occurence of `import MetalPerformanceShaders` for `import MetalPerformanceShadersProxy` in Swift.
+
+Also, if using `MTLFunctionConstantValues` from `Metal`, you need to add `import MetalPerformanceShadersProxy` because it's not available for simulators (even though most functions from `Metal` do!).
+
+This pod will add **no stub** to devices (**no footprint!**), as the proxy uses preprocessor macros to decide which implementation to use.
 
 ## Requirements
 
@@ -37,7 +44,7 @@ import MetalPerformanceShadersProxy
 
 Before contribute check the [CONTRIBUTING](https://github.com/xmartlabs/MetalPerformanceShadersProxy/blob/master/CONTRIBUTING.md) file for more info.
 
-If you use **MetalPerformanceShadersProxy** in your app We would love to hear about it! Drop us a line on [Twitter](https://twitter.com/xmartlabs).
+If you use **MetalPerformanceShadersProxy** in your app, we would love to hear about it! Drop us a line on [Twitter](https://twitter.com/xmartlabs).
 
 ## Examples
 
