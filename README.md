@@ -33,7 +33,7 @@ This pod will add **no stub** to devices (**no footprint!**), as the proxy uses 
 
 ## How it was created
 
-We copied the MetalPerformanceShaders (MPS) Objective-C header files from Xcode 8.3.2. Then we use [AppCode](https://www.jetbrains.com/objc/) to easily create stubs for them. At first, we disabled all "unused class/member/variable" warnings to then navigate through the "unimplemented class" errors using <kbd>F2</kbd>. For each of them, we created empty implementations using <kbd>⌥ Enter</kbd>. Then, with the same key bindings we created stub implementations for the unimplemented functions. Then, we went back using <kbd>⌥> [</kbd>. And so on. Classes from the same header were later put together in the same file.
+We copied the MetalPerformanceShaders (MPS) Objective-C header files from Xcode 8.3.2. Then we use [AppCode](https://www.jetbrains.com/objc/) to easily create stubs for them. At first, we disabled all "unused class/member/variable" warnings to then navigate through the "unimplemented class" errors using <kbd>F2</kbd>. For each of them, we created empty implementations using <kbd>⌥ Enter</kbd>. Then, with the same key bindings we created stub implementations for the unimplemented functions. Then, we went back using <kbd>⌥ [</kbd>. And so on. Classes from the same header were later put together in the same file.
 
 Also, we had to change all `NSUInteger` instances to `NSInteger` as Swift interpreted correctly as `UInt` for these files but not for others (such as the in real implementation, they were interpreted as `Int`).
 
