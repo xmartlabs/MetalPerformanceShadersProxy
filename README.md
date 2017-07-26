@@ -44,7 +44,7 @@ This pod will add **no stub** to devices (**no footprint!**), as the proxy uses 
 If for some reason you want to control when to use the stub, you can import the stub like:
 
 ```swift
-#ifdef condition
+#if condition
     import MetalPerformanceShadersStub
 #else
     import MetalPerformanceShaders
