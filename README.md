@@ -11,7 +11,7 @@
 
 By [Xmartlabs SRL](http://xmartlabs.com)
 
-## Introduction
+--
 
 A proxy for **MetalPerformanceShaders** which takes to a **stub on a simulator** and to the **real implementation on iOS devices**. It works both for Swift and Objective-C.
 
