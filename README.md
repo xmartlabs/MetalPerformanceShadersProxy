@@ -31,6 +31,16 @@ Also, if using `MTLFunctionConstantValues` from `Metal`, you need to add `import
 
 This pod will add **no stub** to devices (**no footprint!**), as the proxy uses preprocessor macros to decide which implementation to use.
 
+## How it was created
+
+We copied the MetalPerformanceShaders (MPS) Objective-C header files from Xcode 8.3.2. Then we use [AppCode](https://www.jetbrains.com/objc/) to easily create stubs for them. At first, we disabled all "unused class/member/variable" warnings to then navigate through the "unimplemented class" errors using <kbd>F2</kbd>. For each of them, we created empty implementations using <kbd>⌥> Enter</kbd>. Then, with the same key bindings we created stub implementations for the unimplemented functions. Then, we went back using <kbd>⌥> [</kbd>. And so on. Classes from the same header were later put together in the same file.
+
+Also, we had to change all `NSUInteger` instances to `NSInteger` as Swift interpreted correctly as `UInt` for these files but not for others (such as the in real implementation, they were interpreted as `Int`).
+
+Then, we created a proxy that, using precompiler macros, imports the stub implementations or the real ones.
+
+We realized that `MTLFunctionConstantValues` was neither present on simulator, despite it comes from `Metal` and not from `MetalPerformanceShaders`. So, we added a stub implementation for it.
+
 ## Requirements
 
 * iOS 9.0+
@@ -48,7 +58,7 @@ If you use **MetalPerformanceShadersProxy** in your app, we would love to hear a
 
 ## Examples
 
-Follow these 3 steps to run Example project: Clone MetalPerformanceShadersProxy repository, open MetalPerformanceShadersProxy workspace and run the *Example* project.
+Follow these 3 steps to run Example project: clone MetalPerformanceShadersProxy repository, open MetalPerformanceShadersProxy workspace and run the *Example* project.
 
 You can also experiment and learn with the *MetalPerformanceShadersProxy Playground* which is contained in *MetalPerformanceShadersProxy.workspace*.
 
