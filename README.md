@@ -25,11 +25,31 @@ It's usually a problem not to be able to **compile** for a simulator target when
 
 ## Usage
 
-You need to change every occurence of `import MetalPerformanceShaders` for `import MetalPerformanceShadersProxy` in Swift.
+In Swift, you need to change every occurence of
+
+```swift
+import MetalPerformanceShaders
+```
+
+to
+
+```swift
+import MetalPerformanceShadersProxy
+```
 
 Also, if using `MTLFunctionConstantValues` from `Metal`, you need to add `import MetalPerformanceShadersProxy` because it's not available for simulators (even though most functions from `Metal` do!).
 
 This pod will add **no stub** to devices (**no footprint!**), as the proxy uses preprocessor macros to decide which implementation to use.
+
+If for some reason you want to control when to use the stub, you can import the stub like:
+
+```swift
+#ifdef condition
+    import MetalPerformanceShadersStub
+#else
+    import MetalPerformanceShaders
+#endif
+```
 
 ## How it was created
 
@@ -72,6 +92,12 @@ To install MetalPerformanceShadersProxy, simply add the following line to your P
 
 ```ruby
 pod 'MetalPerformanceShadersProxy', '~> 1.0'
+```
+
+If you just want the stub:
+
+```ruby
+pod 'MetalPerformanceShadersProxy/Stub', '~> 1.0'
 ```
 
 #### Carthage
