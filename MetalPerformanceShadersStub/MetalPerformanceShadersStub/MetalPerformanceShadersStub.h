@@ -6,8 +6,6 @@
 //  Copyright © 2017 Xmartlabs. All rights reserved.
 //
 
-#define COREVIDEO_SUPPORTS_METAL 1
-
 //! Project version number for MetalPerformanceShadersStub.
 FOUNDATION_EXPORT double MetalPerformanceShadersStubVersionNumber;
 
