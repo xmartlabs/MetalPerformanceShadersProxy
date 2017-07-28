@@ -42,8 +42,12 @@
 		46C5A92A1F27C6AC006E0D08 /* MPSImageTranspose.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A90B1F27C6AC006E0D08 /* MPSImageTranspose.m */; };
 		46C5A92B1F27C6AC006E0D08 /* MPSKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A90C1F27C6AC006E0D08 /* MPSKernel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46C5A92C1F27C6AC006E0D08 /* MPSKernel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A90D1F27C6AC006E0D08 /* MPSKernel.m */; };
+		8F3283811F2BBBBE0061F068 /* CAMetalDrawable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3283801F2BBBBE0061F068 /* CAMetalDrawable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F52475E1F2BBDEF00F4789E /* CAMetalDrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F52475D1F2BBDEF00F4789E /* CAMetalDrawable.m */; };
 		8F8568881F2B78F400FCC79D /* CVMetalTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8568861F2B78F400FCC79D /* CVMetalTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F8568891F2B78F400FCC79D /* CVMetalTextureCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8568871F2B78F400FCC79D /* CVMetalTextureCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C189844C3DB62952BDC5F4A3 /* CVMetalTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = C1898458A5DEE5EDE125F0D6 /* CVMetalTexture.m */; };
+		C1898CEAE4C760B218AAE17F /* CVMetalTextureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C1898D3921B18533DA4FE4C1 /* CVMetalTextureCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,8 +99,12 @@
 		46C5A90B1F27C6AC006E0D08 /* MPSImageTranspose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageTranspose.m; path = MPS/MPSImageTranspose.m; sourceTree = "<group>"; };
 		46C5A90C1F27C6AC006E0D08 /* MPSKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSKernel.h; path = MPS/MPSKernel.h; sourceTree = "<group>"; };
 		46C5A90D1F27C6AC006E0D08 /* MPSKernel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSKernel.m; path = MPS/MPSKernel.m; sourceTree = "<group>"; };
+		8F3283801F2BBBBE0061F068 /* CAMetalDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMetalDrawable.h; sourceTree = "<group>"; };
+		8F52475D1F2BBDEF00F4789E /* CAMetalDrawable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMetalDrawable.m; sourceTree = "<group>"; };
 		8F8568861F2B78F400FCC79D /* CVMetalTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVMetalTexture.h; sourceTree = "<group>"; };
 		8F8568871F2B78F400FCC79D /* CVMetalTextureCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVMetalTextureCache.h; sourceTree = "<group>"; };
+		C1898458A5DEE5EDE125F0D6 /* CVMetalTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVMetalTexture.m; sourceTree = "<group>"; };
+		C1898D3921B18533DA4FE4C1 /* CVMetalTextureCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVMetalTextureCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +155,7 @@
 		46C5A8D61F27C660006E0D08 /* MetalPerformanceShadersStub */ = {
 			isa = PBXGroup;
 			children = (
+				8F32837F1F2BBBBE0061F068 /* QuartzCore */,
 				8F8568851F2B78F400FCC79D /* CoreVideo */,
 				467E29661F27F35F000E99B5 /* Metal */,
 				46C5A8EE1F27C6A0006E0D08 /* MPS */,
@@ -203,11 +212,22 @@
 			name = MPS;
 			sourceTree = "<group>";
 		};
+		8F32837F1F2BBBBE0061F068 /* QuartzCore */ = {
+			isa = PBXGroup;
+			children = (
+				8F3283801F2BBBBE0061F068 /* CAMetalDrawable.h */,
+				8F52475D1F2BBDEF00F4789E /* CAMetalDrawable.m */,
+			);
+			path = QuartzCore;
+			sourceTree = "<group>";
+		};
 		8F8568851F2B78F400FCC79D /* CoreVideo */ = {
 			isa = PBXGroup;
 			children = (
 				8F8568861F2B78F400FCC79D /* CVMetalTexture.h */,
 				8F8568871F2B78F400FCC79D /* CVMetalTextureCache.h */,
+				C1898458A5DEE5EDE125F0D6 /* CVMetalTexture.m */,
+				C1898D3921B18533DA4FE4C1 /* CVMetalTextureCache.m */,
 			);
 			path = CoreVideo;
 			sourceTree = "<group>";
@@ -227,6 +247,7 @@
 				46C5A9121F27C6AC006E0D08 /* MPSImageConvolution.h in Headers */,
 				46C5A90E1F27C6AC006E0D08 /* MPSCNN.h in Headers */,
 				46C5A9211F27C6AC006E0D08 /* MPSImageIntegral.h in Headers */,
+				8F3283811F2BBBBE0061F068 /* CAMetalDrawable.h in Headers */,
 				46C5A92B1F27C6AC006E0D08 /* MPSKernel.h in Headers */,
 				46C5A9141F27C6AC006E0D08 /* MPSImageHistogram.h in Headers */,
 				46C5A91A1F27C6AC006E0D08 /* MPSMatrix.h in Headers */,
@@ -344,6 +365,7 @@
 				46C5A9171F27C6AC006E0D08 /* MPSImageMedian.m in Sources */,
 				46C5A9111F27C6AC006E0D08 /* MPSImage.m in Sources */,
 				46C5A92A1F27C6AC006E0D08 /* MPSImageTranspose.m in Sources */,
+				8F52475E1F2BBDEF00F4789E /* CAMetalDrawable.m in Sources */,
 				467E296A1F27F800000E99B5 /* MTLFunctionConstantValues.m in Sources */,
 				46C5A90F1F27C6AC006E0D08 /* MPSCNN.m in Sources */,
 				46C5A9131F27C6AC006E0D08 /* MPSImageConvolution.m in Sources */,
@@ -357,6 +379,8 @@
 				46C5A92C1F27C6AC006E0D08 /* MPSKernel.m in Sources */,
 				46C5A9221F27C6AC006E0D08 /* MPSImageIntegral.m in Sources */,
 				46C5A91D1F27C6AC006E0D08 /* MPSMatrixMultiplication.m in Sources */,
+				C189844C3DB62952BDC5F4A3 /* CVMetalTexture.m in Sources */,
+				C1898CEAE4C760B218AAE17F /* CVMetalTextureCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

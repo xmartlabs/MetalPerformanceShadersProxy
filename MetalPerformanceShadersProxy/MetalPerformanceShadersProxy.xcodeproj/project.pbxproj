@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46C5A93A1F27C8B7006E0D08 /* MetalPerformanceShadersStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C5A9331F27C6CC006E0D08 /* MetalPerformanceShadersStub.framework */; };
+		46C5A93A1F27C8B7006E0D08 /* MetalPerformanceShadersStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C5A9331F27C6CC006E0D08 /* MetalPerformanceShadersStub.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		46FEC7B41F27B82D00ADE379 /* MetalPerformanceShadersProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FEC7AA1F27B82D00ADE379 /* MetalPerformanceShadersProxy.framework */; };
 		46FEC7B91F27B82D00ADE379 /* MetalPerformanceShadersProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FEC7B81F27B82D00ADE379 /* MetalPerformanceShadersProxyTests.m */; };
 		46FEC7BB1F27B82D00ADE379 /* MetalPerformanceShadersProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 46FEC7AD1F27B82D00ADE379 /* MetalPerformanceShadersProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };

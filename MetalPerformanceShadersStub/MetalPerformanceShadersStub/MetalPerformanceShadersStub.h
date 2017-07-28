@@ -32,3 +32,5 @@ FOUNDATION_EXPORT const unsigned char MetalPerformanceShadersStubVersionString[]
 
 #import "CVMetalTexture.h"
 #import "CVMetalTextureCache.h"
+
+#import "CAMetalDrawable.h"

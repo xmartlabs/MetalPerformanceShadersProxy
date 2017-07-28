@@ -1,5 +1,5 @@
 //
-// Created by Mathias Claassen on 7/20/17.
+// Created by Santiago Castro on 7/20/17.
 //
 
 #import "MPSKernel.h"
