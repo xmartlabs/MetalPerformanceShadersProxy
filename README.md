@@ -22,6 +22,8 @@ It's usually a problem not to be able to **compile** for a simulator target when
 
 ## Usage
 
+### Main change
+
 In Swift, you need to change every occurence of
 
 ```swift
@@ -34,9 +36,17 @@ to
 import MetalPerformanceShadersProxy
 ```
 
-Also, if using `MTLFunctionConstantValues` from `Metal`, you need to add `import MetalPerformanceShadersProxy` because it's not available for simulators (even though most functions from `Metal` do!).
-
 This pod will add **no stub** to devices (**no footprint!**), as the proxy uses preprocessor macros to decide which implementation to use.
+
+### MTLFunctionConstantValues
+
+If using `MTLFunctionConstantValues` from `Metal`, you need to add `import MetalPerformanceShadersProxy` because it's not available for simulators (even though most functions from `Metal` do!).
+
+### CoreVideo
+
+Both `CVMetalTexture.h` and `CVMetalTextureCache.h` files have preprocessor macros to check if Metal is available or not to make declarations, which is indeed a problem. We have those declarations stubbed! So, just import `MetalPerformanceShadersProxy` to use them.
+
+### Advanced: Control when to use the stub
 
 If for some reason you want to control when to use the stub, you can import the stub like:
 
@@ -57,6 +67,8 @@ Also, we had to change all `NSUInteger` instances to `NSInteger` as Swift interp
 Then, we created a proxy that, using precompiler macros, imports the stub implementations or the real ones.
 
 We realized that `MTLFunctionConstantValues` was neither present on simulator, despite it comes from `Metal` and not from `MetalPerformanceShaders`. So, we added a stub implementation for it.
+
+`CVMetalTexture` and `CVMetalTexture` from `CoreVideo` have missing declarations from if Metal is not available, so we copied that too.
 
 ## Requirements
 

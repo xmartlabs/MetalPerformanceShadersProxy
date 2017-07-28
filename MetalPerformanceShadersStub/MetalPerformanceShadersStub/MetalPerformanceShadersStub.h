@@ -6,7 +6,7 @@
 //  Copyright © 2017 Xmartlabs. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#define COREVIDEO_SUPPORTS_METAL 1
 
 //! Project version number for MetalPerformanceShadersStub.
 FOUNDATION_EXPORT double MetalPerformanceShadersStubVersionNumber;
@@ -31,3 +31,6 @@ FOUNDATION_EXPORT const unsigned char MetalPerformanceShadersStubVersionString[]
 #import "MPSMatrix.h"
 #import "MPSMatrixMultiplication.h"
 #import "MPSTypes.h"
+
+#import "CVMetalTexture.h"
+#import "CVMetalTextureCache.h"

@@ -42,6 +42,8 @@
 		46C5A92A1F27C6AC006E0D08 /* MPSImageTranspose.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A90B1F27C6AC006E0D08 /* MPSImageTranspose.m */; };
 		46C5A92B1F27C6AC006E0D08 /* MPSKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A90C1F27C6AC006E0D08 /* MPSKernel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46C5A92C1F27C6AC006E0D08 /* MPSKernel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A90D1F27C6AC006E0D08 /* MPSKernel.m */; };
+		8F8568881F2B78F400FCC79D /* CVMetalTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8568861F2B78F400FCC79D /* CVMetalTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F8568891F2B78F400FCC79D /* CVMetalTextureCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8568871F2B78F400FCC79D /* CVMetalTextureCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,8 @@
 		46C5A90B1F27C6AC006E0D08 /* MPSImageTranspose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageTranspose.m; path = MPS/MPSImageTranspose.m; sourceTree = "<group>"; };
 		46C5A90C1F27C6AC006E0D08 /* MPSKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSKernel.h; path = MPS/MPSKernel.h; sourceTree = "<group>"; };
 		46C5A90D1F27C6AC006E0D08 /* MPSKernel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSKernel.m; path = MPS/MPSKernel.m; sourceTree = "<group>"; };
+		8F8568861F2B78F400FCC79D /* CVMetalTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVMetalTexture.h; sourceTree = "<group>"; };
+		8F8568871F2B78F400FCC79D /* CVMetalTextureCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVMetalTextureCache.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,7 @@
 		46C5A8D61F27C660006E0D08 /* MetalPerformanceShadersStub */ = {
 			isa = PBXGroup;
 			children = (
+				8F8568851F2B78F400FCC79D /* CoreVideo */,
 				467E29661F27F35F000E99B5 /* Metal */,
 				46C5A8EE1F27C6A0006E0D08 /* MPS */,
 				46C5A8D71F27C660006E0D08 /* MetalPerformanceShadersStub.h */,
@@ -198,6 +203,15 @@
 			name = MPS;
 			sourceTree = "<group>";
 		};
+		8F8568851F2B78F400FCC79D /* CoreVideo */ = {
+			isa = PBXGroup;
+			children = (
+				8F8568861F2B78F400FCC79D /* CVMetalTexture.h */,
+				8F8568871F2B78F400FCC79D /* CVMetalTextureCache.h */,
+			);
+			path = CoreVideo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -208,6 +222,7 @@
 				46C5A9181F27C6AC006E0D08 /* MPSImageMorphology.h in Headers */,
 				46C5A8E51F27C660006E0D08 /* MetalPerformanceShadersStub.h in Headers */,
 				46C5A9101F27C6AC006E0D08 /* MPSImage.h in Headers */,
+				8F8568891F2B78F400FCC79D /* CVMetalTextureCache.h in Headers */,
 				46C5A9231F27C6AC006E0D08 /* MPSImageKernel.h in Headers */,
 				46C5A9121F27C6AC006E0D08 /* MPSImageConvolution.h in Headers */,
 				46C5A90E1F27C6AC006E0D08 /* MPSCNN.h in Headers */,
@@ -222,6 +237,7 @@
 				46C5A91E1F27C6AC006E0D08 /* MPSTypes.h in Headers */,
 				46C5A9271F27C6AC006E0D08 /* MPSImageThreshold.h in Headers */,
 				46C5A9251F27C6AC006E0D08 /* MPSImageResampling.h in Headers */,
+				8F8568881F2B78F400FCC79D /* CVMetalTexture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
