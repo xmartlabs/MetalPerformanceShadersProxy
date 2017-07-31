@@ -29,4 +29,9 @@
 
 }
 
+- (id)copyWithZone:(nullable NSZone *)zone {
+    return nil;
+}
+
+
 @end

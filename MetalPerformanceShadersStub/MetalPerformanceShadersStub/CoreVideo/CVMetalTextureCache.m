@@ -1,10 +1,5 @@
 #import "CVMetalTextureCache.h"
 
-#include <Metal/MTLPixelFormat.h>
-
-typedef CVImageBufferRef CVMetalTextureRef;
-typedef struct CV_BRIDGED_TYPE(id) __CVMetalTextureCache *CVMetalTextureCacheRef;
-
 CFTypeID CVMetalTextureCacheGetTypeID(void) {
     return 0;
 }

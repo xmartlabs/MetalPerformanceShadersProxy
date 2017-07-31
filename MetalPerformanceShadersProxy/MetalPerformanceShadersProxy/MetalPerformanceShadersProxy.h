@@ -14,8 +14,6 @@ FOUNDATION_EXPORT double MetalPerformanceShadersProxyVersionNumber;
 //! Project version string for MetalPerformanceShadersProxy.
 FOUNDATION_EXPORT const unsigned char MetalPerformanceShadersProxyVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <MetalPerformanceShadersProxy/PublicHeader.h>
-
 #if TARGET_OS_SIMULATOR
     @import MetalPerformanceShadersStub;
 #else

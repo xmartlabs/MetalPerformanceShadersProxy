@@ -1,7 +1,5 @@
 #import "CVMetalTexture.h"
 
-typedef CVImageBufferRef CVMetalTextureRef;
-
 CFTypeID CVMetalTextureGetTypeID(void) {
     return 0;
 }

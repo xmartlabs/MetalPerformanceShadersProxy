@@ -9,18 +9,21 @@
 <a href="https://raw.githubusercontent.com/xmartlabs/MetalPerformanceShadersProxy/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License: MIT" /></a>
 </p>
 
-By [Xmartlabs SRL](http://xmartlabs.com)
+By [Xmartlabs SRL](https://xmartlabs.com)
 
-A proxy for **MetalPerformanceShaders** which takes to a **stub on a simulator** and to the **real implementation on iOS devices**. It works both for Swift and Objective-C.
+A proxy for **MetalPerformanceShaders** (and dependents) which takes to a **stub on a simulator** and to the **real implementation on a device**. It works both for Swift and Objective-C.
 
 It's usually a problem not to be able to **compile** for a simulator target when using Metal shaders. By using this proxy, you are being able to compile and to *run* on simulators. Note that trying to run the Metal shaders on a simulator will fail. Nevertheless, it allows a project that implements Metal shaders to:
 
 * Upload a pod to CocoaPods.
 * Make a framework to work with Carthage.
 * Run an app on a simulator to use features that don't depend on Metal shaders.
+* Compile unit tests.
 * Test automatically (maybe with a CI server) with simulators the parts of an app that don't depend on Metal shaders.
 
 ## Usage
+
+Apart from including this framework, in order for your project to work with it (and for real Metal of course!), you need to do some minor changes.
 
 ### Main change
 
@@ -38,13 +41,29 @@ import MetalPerformanceShadersProxy
 
 This pod will add **no stub** to devices (**no footprint!**), as the proxy uses preprocessor macros to decide which implementation to use.
 
-### MTLFunctionConstantValues
+### Additional imports
 
-If using `MTLFunctionConstantValues` from `Metal`, you need to add `import MetalPerformanceShadersProxy` because it's not available for simulators (even though most functions from `Metal` do!).
+There are additional types that depend on Metal that need the framework to be imported in order to work on simulators. They come from the following headers:
 
-### CoreVideo
+* `MTLFunctionConstantValues.h` from `Metal`.
+* `CVMetalTexture.h` and `CVMetalTextureCache.h` from `CoreVideo`.
+* `CAMetalDrawable.h` from `QuartzCore`.
 
-Both `CVMetalTexture.h` and `CVMetalTextureCache.h` files have preprocessor macros to check if Metal is available or not to make declarations, which is indeed a problem. We have those declarations stubbed! So, just import `MetalPerformanceShadersProxy` to use them.
+So just import the proxy if using types coming from them.
+
+### currentDrawable from MTKView
+
+`currentDrawable` property of `MTKView` is of type `CAMetalDrawable` in the device but of type `MTLDrawable` in the simulator. So you need to cast it in your code to use it properly. E.g., if you have
+
+```swift
+let texture = view.currentDrawable.texture
+```
+
+change it to
+
+```swift
+let texture = (view.currentDrawable as? CAMetalDrawable)?.texture
+```
 
 ### Advanced: Control when to use the stub
 
@@ -60,15 +79,7 @@ If for some reason you want to control when to use the stub, you can import the 
 
 ## How it was created
 
-We copied the MetalPerformanceShaders (MPS) Objective-C header files from Xcode 8.3.2. Then we use [AppCode](https://www.jetbrains.com/objc/) to easily create stubs for them. At first, we disabled all "unused class/member/variable" warnings to then navigate through the "unimplemented class" errors using <kbd>F2</kbd>. For each of them, we created empty implementations using <kbd>⌥ Enter</kbd>. Then, with the same key bindings we created stub implementations for the unimplemented functions. Then, we went back using <kbd>⌥ [</kbd>. And so on. Classes from the same header were later put together in the same file.
-
-Also, we had to change all `NSUInteger` instances to `NSInteger` as Swift interpreted correctly as `UInt` for these files but not for others (such as the in real implementation, they were interpreted as `Int`).
-
-Then, we created a proxy that, using precompiler macros, imports the stub implementations or the real ones.
-
-We realized that `MTLFunctionConstantValues` was neither present on simulator, despite it comes from `Metal` and not from `MetalPerformanceShaders`. So, we added a stub implementation for it.
-
-`CVMetalTexture` and `CVMetalTexture` from `CoreVideo` have missing declarations from if Metal is not available, so we copied that too.
+See [CREATION](CREATION.md) for an explanation.
 
 ## Requirements
 
@@ -125,4 +136,4 @@ github "xmartlabs/MetalPerformanceShadersProxy" ~> 1.0
 
 ## Changelog
 
-It can be found in the [CHANGELOG.md](CHANGELOG.md) file.
+It can be found in the [CHANGELOG](CHANGELOG.md) file.
