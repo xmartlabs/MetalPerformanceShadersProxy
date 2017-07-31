@@ -6,6 +6,8 @@
 //  Copyright © 2017 Xmartlabs. All rights reserved.
 //
 
+#if ! __has_include(<QuartzCore/CAMetalLayer.h>)
+
 #import "CAMetalDrawable.h"
 
 @implementation CAMetalLayer
@@ -15,3 +17,5 @@
 }
 
 @end
+
+#endif

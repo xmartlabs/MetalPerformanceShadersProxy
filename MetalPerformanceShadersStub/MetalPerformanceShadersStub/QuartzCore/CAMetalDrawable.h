@@ -1,3 +1,4 @@
+#if ! __has_include(<QuartzCore/CAMetalLayer.h>)
 /* CoreAnimation - CAMetalLayer.h
 
    Copyright (c) 2013-2017, Apple Inc.
@@ -94,3 +95,8 @@ CA_CLASS_AVAILABLE (10.11, 8.0, 9.0, 2.0)
 @end
 
 NS_ASSUME_NONNULL_END
+
+
+
+
+#endif
