@@ -13,8 +13,8 @@
 
  */
 
-#if !defined(__COREVIDEO__CVMETALTEXTURECACHE_H__)
-#define __COREVIDEO__CVMETALTEXTURECACHE_H__ 1
+#if !defined(__COREVIDEO__CVMETALTEXTURECACHE_STUB_H__)
+#define __COREVIDEO__CVMETALTEXTURECACHE_STUB_H__ 1
 
 #include <CoreVideo/CVBase.h>
 #include <CoreVideo/CVReturn.h>
