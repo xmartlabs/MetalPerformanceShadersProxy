@@ -16,7 +16,7 @@ FOUNDATION_EXPORT const unsigned char MetalPerformanceShadersProxyVersionString[
 
 // In this header, you should import all the public headers of your framework using statements like #import <MetalPerformanceShadersProxy/PublicHeader.h>
 
-#if TARGET_IPHONE_SIMULATOR
+#if TARGET_OS_SIMULATOR
     @import MetalPerformanceShadersStub;
 #else
     @import MetalPerformanceShaders;
