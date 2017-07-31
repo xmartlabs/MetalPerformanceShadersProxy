@@ -65,6 +65,8 @@ change it to
 let texture = (view.currentDrawable as? CAMetalDrawable)?.texture
 ```
 
+This is the best workaround we came up with. If you happen to have a better idea, please open an issue.
+
 ### Advanced: Control when to use the stub
 
 If for some reason you want to control when to use the stub, you can import the stub like:
@@ -91,6 +93,8 @@ See [CREATION](CREATION.md) for an explanation.
 * If you **want to contribute** please feel free to **submit pull requests**.
 * If you **have a feature request** please **open an issue**.
 * If you **found a bug** or **need help** please **check older issues before submitting an issue.**.
+
+In particular, if you find a missing Metal-dependent framework, open an issue or better submit a pull request :smile:
 
 Before contribute check the [CONTRIBUTING](https://github.com/xmartlabs/MetalPerformanceShadersProxy/blob/master/CONTRIBUTING.md) file for more info.
 
