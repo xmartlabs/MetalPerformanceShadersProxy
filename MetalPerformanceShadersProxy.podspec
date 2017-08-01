@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MetalPerformanceShadersProxy"
-  s.version          = "1.0.0"
+  s.version          = "0.1.0"
   s.summary          = "A MetalPerformanceShaders proxy that allows compilation on simulators."
   s.homepage         = "https://github.com/xmartlabs/MetalPerformanceShadersProxy"
   s.license          = { type: 'MIT', file: 'LICENSE' }

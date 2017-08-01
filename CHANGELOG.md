@@ -1,9 +1,5 @@
-# Change Log
-All notable changes to MetalPerformanceShadersProxy will be documented in this file.
+# Changelog
 
-### [1.0.0](https://github.com/xmartlabs/MetalPerformanceShadersProxy/releases/tag/1.0.0)
-<!-- Released on 2016-01-20. -->
+### [0.1.0](https://github.com/xmartlabs/MetalPerformanceShadersProxy/releases/tag/0.1.0)
 
-* This is the initial version.
-
-[xmartlabs]: https://xmartlabs.com
+Initial version.

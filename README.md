@@ -115,13 +115,13 @@ TODO: add Bender example
 To install MetalPerformanceShadersProxy, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MetalPerformanceShadersProxy', '~> 1.0'
+pod 'MetalPerformanceShadersProxy', '~> 0.1'
 ```
 
 If you just want the stub:
 
 ```ruby
-pod 'MetalPerformanceShadersProxy/Stub', '~> 1.0'
+pod 'MetalPerformanceShadersProxy/Stub', '~> 0.1'
 ```
 
 ### Carthage
@@ -131,7 +131,7 @@ pod 'MetalPerformanceShadersProxy/Stub', '~> 1.0'
 To install MetalPerformanceShadersProxy, simply add the following line to your Cartfile:
 
 ```ogdl
-github "xmartlabs/MetalPerformanceShadersProxy" ~> 1.0
+github "xmartlabs/MetalPerformanceShadersProxy" ~> 0.1
 ```
 
 ## Author
