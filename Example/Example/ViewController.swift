@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         let device = MTLCreateSystemDefaultDevice()!
         let _ = MPSImage.init(device: device, imageDescriptor: MPSImageDescriptor())
 
-        var a: CVMetalTextureCache
+        var _: CVMetalTextureCache
     }
 
 }

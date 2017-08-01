@@ -7,47 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		467E296A1F27F800000E99B5 /* MTLFunctionConstantValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 467E29691F27F800000E99B5 /* MTLFunctionConstantValues.m */; };
+		467E296A1F27F800000E99B5 /* MTLFunctionConstantValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 467E29691F27F800000E99B5 /* MTLFunctionConstantValues.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A8DE1F27C660006E0D08 /* MetalPerformanceShadersStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C5A8D41F27C660006E0D08 /* MetalPerformanceShadersStub.framework */; };
 		46C5A8E31F27C660006E0D08 /* MetalPerformanceShadersStubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8E21F27C660006E0D08 /* MetalPerformanceShadersStubTests.m */; };
 		46C5A8E51F27C660006E0D08 /* MetalPerformanceShadersStub.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8D71F27C660006E0D08 /* MetalPerformanceShadersStub.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46C5A90E1F27C6AC006E0D08 /* MPSCNN.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8EF1F27C6AC006E0D08 /* MPSCNN.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A90F1F27C6AC006E0D08 /* MPSCNN.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8F01F27C6AC006E0D08 /* MPSCNN.m */; };
+		46C5A90F1F27C6AC006E0D08 /* MPSCNN.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8F01F27C6AC006E0D08 /* MPSCNN.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A9101F27C6AC006E0D08 /* MPSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8F11F27C6AC006E0D08 /* MPSImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9111F27C6AC006E0D08 /* MPSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8F21F27C6AC006E0D08 /* MPSImage.m */; };
+		46C5A9111F27C6AC006E0D08 /* MPSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8F21F27C6AC006E0D08 /* MPSImage.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A9121F27C6AC006E0D08 /* MPSImageConvolution.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8F31F27C6AC006E0D08 /* MPSImageConvolution.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9131F27C6AC006E0D08 /* MPSImageConvolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8F41F27C6AC006E0D08 /* MPSImageConvolution.m */; };
+		46C5A9131F27C6AC006E0D08 /* MPSImageConvolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8F41F27C6AC006E0D08 /* MPSImageConvolution.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A9141F27C6AC006E0D08 /* MPSImageHistogram.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8F51F27C6AC006E0D08 /* MPSImageHistogram.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9151F27C6AC006E0D08 /* MPSImageHistogram.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8F61F27C6AC006E0D08 /* MPSImageHistogram.m */; };
+		46C5A9151F27C6AC006E0D08 /* MPSImageHistogram.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8F61F27C6AC006E0D08 /* MPSImageHistogram.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A9161F27C6AC006E0D08 /* MPSImageMedian.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8F71F27C6AC006E0D08 /* MPSImageMedian.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9171F27C6AC006E0D08 /* MPSImageMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8F81F27C6AC006E0D08 /* MPSImageMedian.m */; };
+		46C5A9171F27C6AC006E0D08 /* MPSImageMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8F81F27C6AC006E0D08 /* MPSImageMedian.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A9181F27C6AC006E0D08 /* MPSImageMorphology.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8F91F27C6AC006E0D08 /* MPSImageMorphology.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9191F27C6AC006E0D08 /* MPSImageMorphology.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8FA1F27C6AC006E0D08 /* MPSImageMorphology.m */; };
+		46C5A9191F27C6AC006E0D08 /* MPSImageMorphology.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8FA1F27C6AC006E0D08 /* MPSImageMorphology.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A91A1F27C6AC006E0D08 /* MPSMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8FB1F27C6AC006E0D08 /* MPSMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A91B1F27C6AC006E0D08 /* MPSMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8FC1F27C6AC006E0D08 /* MPSMatrix.m */; };
+		46C5A91B1F27C6AC006E0D08 /* MPSMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8FC1F27C6AC006E0D08 /* MPSMatrix.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A91C1F27C6AC006E0D08 /* MPSMatrixMultiplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8FD1F27C6AC006E0D08 /* MPSMatrixMultiplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A91D1F27C6AC006E0D08 /* MPSMatrixMultiplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8FE1F27C6AC006E0D08 /* MPSMatrixMultiplication.m */; };
+		46C5A91D1F27C6AC006E0D08 /* MPSMatrixMultiplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8FE1F27C6AC006E0D08 /* MPSMatrixMultiplication.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A91E1F27C6AC006E0D08 /* MPSTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8FF1F27C6AC006E0D08 /* MPSTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46C5A91F1F27C6AC006E0D08 /* MPSImageConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A9001F27C6AC006E0D08 /* MPSImageConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9201F27C6AC006E0D08 /* MPSImageConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A9011F27C6AC006E0D08 /* MPSImageConversion.m */; };
+		46C5A9201F27C6AC006E0D08 /* MPSImageConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A9011F27C6AC006E0D08 /* MPSImageConversion.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A9211F27C6AC006E0D08 /* MPSImageIntegral.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A9021F27C6AC006E0D08 /* MPSImageIntegral.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9221F27C6AC006E0D08 /* MPSImageIntegral.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A9031F27C6AC006E0D08 /* MPSImageIntegral.m */; };
+		46C5A9221F27C6AC006E0D08 /* MPSImageIntegral.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A9031F27C6AC006E0D08 /* MPSImageIntegral.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A9231F27C6AC006E0D08 /* MPSImageKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A9041F27C6AC006E0D08 /* MPSImageKernel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9241F27C6AC006E0D08 /* MPSImageKernel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A9051F27C6AC006E0D08 /* MPSImageKernel.m */; };
+		46C5A9241F27C6AC006E0D08 /* MPSImageKernel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A9051F27C6AC006E0D08 /* MPSImageKernel.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A9251F27C6AC006E0D08 /* MPSImageResampling.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A9061F27C6AC006E0D08 /* MPSImageResampling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9261F27C6AC006E0D08 /* MPSImageResampling.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A9071F27C6AC006E0D08 /* MPSImageResampling.m */; };
+		46C5A9261F27C6AC006E0D08 /* MPSImageResampling.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A9071F27C6AC006E0D08 /* MPSImageResampling.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A9271F27C6AC006E0D08 /* MPSImageThreshold.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A9081F27C6AC006E0D08 /* MPSImageThreshold.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9281F27C6AC006E0D08 /* MPSImageThreshold.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A9091F27C6AC006E0D08 /* MPSImageThreshold.m */; };
+		46C5A9281F27C6AC006E0D08 /* MPSImageThreshold.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A9091F27C6AC006E0D08 /* MPSImageThreshold.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A9291F27C6AC006E0D08 /* MPSImageTranspose.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A90A1F27C6AC006E0D08 /* MPSImageTranspose.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A92A1F27C6AC006E0D08 /* MPSImageTranspose.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A90B1F27C6AC006E0D08 /* MPSImageTranspose.m */; };
+		46C5A92A1F27C6AC006E0D08 /* MPSImageTranspose.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A90B1F27C6AC006E0D08 /* MPSImageTranspose.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A92B1F27C6AC006E0D08 /* MPSKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A90C1F27C6AC006E0D08 /* MPSKernel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A92C1F27C6AC006E0D08 /* MPSKernel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A90D1F27C6AC006E0D08 /* MPSKernel.m */; };
+		46C5A92C1F27C6AC006E0D08 /* MPSKernel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A90D1F27C6AC006E0D08 /* MPSKernel.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		8F3283811F2BBBBE0061F068 /* CAMetalDrawable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3283801F2BBBBE0061F068 /* CAMetalDrawable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F52475E1F2BBDEF00F4789E /* CAMetalDrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F52475D1F2BBDEF00F4789E /* CAMetalDrawable.m */; };
+		8F52475E1F2BBDEF00F4789E /* CAMetalDrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F52475D1F2BBDEF00F4789E /* CAMetalDrawable.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		8F8568881F2B78F400FCC79D /* CVMetalTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8568861F2B78F400FCC79D /* CVMetalTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F8568891F2B78F400FCC79D /* CVMetalTextureCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8568871F2B78F400FCC79D /* CVMetalTextureCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C189844C3DB62952BDC5F4A3 /* CVMetalTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = C1898458A5DEE5EDE125F0D6 /* CVMetalTexture.m */; };
-		C1898CEAE4C760B218AAE17F /* CVMetalTextureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C1898D3921B18533DA4FE4C1 /* CVMetalTextureCache.m */; };
+		C189844C3DB62952BDC5F4A3 /* CVMetalTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = C1898458A5DEE5EDE125F0D6 /* CVMetalTexture.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		C1898CEAE4C760B218AAE17F /* CVMetalTextureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C1898D3921B18533DA4FE4C1 /* CVMetalTextureCache.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -441,6 +441,7 @@
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -487,6 +488,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
