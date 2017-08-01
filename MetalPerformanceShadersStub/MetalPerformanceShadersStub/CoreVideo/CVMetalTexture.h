@@ -69,10 +69,10 @@ CV_EXPORT Boolean CVMetalTextureIsFlipped( CVMetalTextureRef CV_NONNULL image ) 
     @param      upperLeft  - array of two floats where the s and t normalized texture coordinates of the upper right corner of the image will be stored
 */
 CV_EXPORT void CVMetalTextureGetCleanTexCoords( CVMetalTextureRef CV_NONNULL image,
-        float lowerLeft[2],
-        float lowerRight[2],
-        float upperRight[2],
-        float upperLeft[2] ) __OSX_AVAILABLE_STARTING(__MAC_10_11,__IPHONE_8_0);
+        float lowerLeft[CV_NONNULL 2],
+        float lowerRight[CV_NONNULL 2],
+        float upperRight[CV_NONNULL 2],
+        float upperLeft[CV_NONNULL 2] ) __OSX_AVAILABLE_STARTING(__MAC_10_11,__IPHONE_8_0);
 
 //#endif
 

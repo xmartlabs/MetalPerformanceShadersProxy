@@ -15,4 +15,6 @@ Pod::Spec.new do |s|
     sp.ios.source_files = 'MetalPerformanceShadersStub/MetalPerformanceShadersStub/**/*.{h,m}'
   end
 
+  s.compiler_flags = '-w'
+
 end
