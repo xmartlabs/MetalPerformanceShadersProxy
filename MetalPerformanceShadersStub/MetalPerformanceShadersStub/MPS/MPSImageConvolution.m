@@ -3,15 +3,16 @@
 //
 
 #import "MPSImageConvolution.h"
+#import "ErrorDefines.h"
 
 
 @implementation MPSImageBox
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device kernelWidth:(NSInteger)kernelWidth kernelHeight:(NSInteger)kernelHeight {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
@@ -19,7 +20,7 @@
 
 @implementation MPSImageConvolution
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device kernelWidth:(NSInteger)kernelWidth kernelHeight:(NSInteger)kernelHeight weights:(const float *__nonnull)kernelWeights {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
@@ -27,11 +28,11 @@
 
 @implementation MPSImageGaussianBlur
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device sigma:(float)sigma {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
@@ -47,15 +48,15 @@
 
 @implementation MPSImagePyramid
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device centerWeight:(float)centerWeight {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device kernelWidth:(NSInteger)kernelWidth kernelHeight:(NSInteger)kernelHeight weights:(const float *__nonnull)kernelWeights {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
@@ -63,11 +64,11 @@
 
 @implementation MPSImageSobel
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device linearGrayColorTransform:(const float *__nonnull)transform {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end

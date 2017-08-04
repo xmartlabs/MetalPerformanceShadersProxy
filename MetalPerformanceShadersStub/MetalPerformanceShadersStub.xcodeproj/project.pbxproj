@@ -99,6 +99,7 @@
 		46C5A90B1F27C6AC006E0D08 /* MPSImageTranspose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageTranspose.m; path = MPS/MPSImageTranspose.m; sourceTree = "<group>"; };
 		46C5A90C1F27C6AC006E0D08 /* MPSKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSKernel.h; path = MPS/MPSKernel.h; sourceTree = "<group>"; };
 		46C5A90D1F27C6AC006E0D08 /* MPSKernel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSKernel.m; path = MPS/MPSKernel.m; sourceTree = "<group>"; };
+		8F0693281F34DBC00004D3E9 /* ErrorDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErrorDefines.h; sourceTree = "<group>"; };
 		8F3283801F2BBBBE0061F068 /* CAMetalDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMetalDrawable.h; sourceTree = "<group>"; };
 		8F52475D1F2BBDEF00F4789E /* CAMetalDrawable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMetalDrawable.m; sourceTree = "<group>"; };
 		8F8568861F2B78F400FCC79D /* CVMetalTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVMetalTexture.h; sourceTree = "<group>"; };
@@ -161,6 +162,7 @@
 				46C5A8EE1F27C6A0006E0D08 /* MPS */,
 				46C5A8D71F27C660006E0D08 /* MetalPerformanceShadersStub.h */,
 				46C5A8D81F27C660006E0D08 /* Info.plist */,
+				8F0693281F34DBC00004D3E9 /* ErrorDefines.h */,
 			);
 			path = MetalPerformanceShadersStub;
 			sourceTree = "<group>";

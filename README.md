@@ -41,6 +41,8 @@ import MetalPerformanceShadersProxy
 
 This pod will add **no stub** to devices (**no footprint!**), as the proxy uses preprocessor macros to decide which implementation to use.
 
+Note that if a stub method is called, a exception will be thrown.
+
 ### Additional imports
 
 There are additional types that depend on Metal that need the framework to be imported in order to work on simulators. They come from the following headers:

@@ -3,11 +3,12 @@
 //
 
 #import "MPSImageConversion.h"
+#import "ErrorDefines.h"
 
 
 @implementation MPSImageConversion
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device srcAlpha:(MPSAlphaType)srcAlpha destAlpha:(MPSAlphaType)destAlpha backgroundColor:(nullable CGFloat *)backgroundColor conversionInfo:(nullable CGColorConversionInfoRef)conversionInfo {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end

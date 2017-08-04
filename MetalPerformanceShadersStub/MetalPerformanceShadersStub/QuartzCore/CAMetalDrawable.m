@@ -9,11 +9,12 @@
 #if ! __has_include(<QuartzCore/CAMetalLayer.h>)
 
 #import "CAMetalDrawable.h"
+#import "ErrorDefines.h"
 
 @implementation CAMetalLayer
 
 - (nullable id <CAMetalDrawable>)nextDrawable {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end

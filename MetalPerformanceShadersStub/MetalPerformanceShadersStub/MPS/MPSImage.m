@@ -3,56 +3,57 @@
 //
 
 #import "MPSImage.h"
+#import "ErrorDefines.h"
 
 @implementation MPSImage
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device imageDescriptor:(const MPSImageDescriptor *__nonnull)imageDescriptor {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithTexture:(nonnull id <MTLTexture>)texture featureChannels:(NSInteger)featureChannels {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)init {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (MPSPurgeableState)setPurgeableState:(MPSPurgeableState)state {
-    return MPSPurgeableStateVolatile;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
 
 @implementation MPSImageDescriptor
 + (instancetype)imageDescriptorWithChannelFormat:(MPSImageFeatureChannelFormat)channelFormat width:(NSInteger)width height:(NSInteger)height featureChannels:(NSInteger)featureChannels {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 + (instancetype)imageDescriptorWithChannelFormat:(MPSImageFeatureChannelFormat)channelFormat width:(NSInteger)width height:(NSInteger)height featureChannels:(NSInteger)featureChannels numberOfImages:(NSInteger)numberOfImages usage:(MTLTextureUsage)usage {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
 
 @implementation MPSTemporaryImage
 + (instancetype)temporaryImageWithCommandBuffer:(nonnull id <MTLCommandBuffer>)commandBuffer imageDescriptor:(const MPSImageDescriptor *__nonnull)imageDescriptor {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 + (instancetype)temporaryImageWithCommandBuffer:(nonnull id <MTLCommandBuffer>)commandBuffer textureDescriptor:(const MTLTextureDescriptor *__nonnull)textureDescriptor {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 + (void)prefetchStorageWithCommandBuffer:(nonnull id <MTLCommandBuffer>)commandBuffer imageDescriptorList:(NSArray <MPSImageDescriptor *> *__nonnull)descriptorList {
-
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithTexture:(nonnull id <MTLTexture>)texture featureChannels:(NSInteger)featureChannels {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device imageDescriptor:(const MPSImageDescriptor *__nonnull)imageDescriptor {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end

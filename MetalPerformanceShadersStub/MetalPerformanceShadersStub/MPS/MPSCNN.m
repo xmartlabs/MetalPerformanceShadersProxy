@@ -3,15 +3,16 @@
 //
 
 #import "MPSCNN.h"
+#import "ErrorDefines.h"
 
 
 @implementation MPSCNNConvolution
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device convolutionDescriptor:(const MPSCNNConvolutionDescriptor *__nonnull)convolutionDescriptor kernelWeights:(const float *__nonnull)kernelWeights biasTerms:(const float *__nullable)biasTerms flags:(MPSCNNConvolutionFlags)flags {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
@@ -20,11 +21,11 @@
 @implementation MPSCNNConvolutionDescriptor
 
 + (instancetype)cnnConvolutionDescriptorWithKernelWidth:(NSInteger)kernelWidth kernelHeight:(NSInteger)kernelHeight inputFeatureChannels:(NSInteger)inputFeatureChannels outputFeatureChannels:(NSInteger)outputFeatureChannels neuronFilter:(const MPSCNNNeuron *__nullable)neuronFilter {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (id)copyWithZone:(nullable NSZone *)zone {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 
@@ -33,11 +34,11 @@
 
 @implementation MPSCNNCrossChannelNormalization
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device kernelSize:(NSInteger)kernelSize {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
@@ -45,11 +46,11 @@
 
 @implementation MPSCNNFullyConnected
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device convolutionDescriptor:(const MPSCNNConvolutionDescriptor *__nonnull)fullyConnectedDescriptor kernelWeights:(const float *__nonnull)kernelWeights biasTerms:(const float *__nullable)biasTerms flags:(MPSCNNConvolutionFlags)flags {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
@@ -57,12 +58,11 @@
 
 @implementation MPSCNNKernel
 - (void)encodeToCommandBuffer:(nonnull id <MTLCommandBuffer>)commandBuffer sourceImage:(MPSImage *__nonnull)sourceImage destinationImage:(MPSImage *__nonnull)destinationImage {
-
+    STUB_NOT_IMPLEMENTED
 }
 
 - (MPSRegion)sourceRegionForDestinationSize:(MTLSize)destinationSize {
-    MPSRegion result;
-    return result;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
@@ -70,11 +70,11 @@
 
 @implementation MPSCNNLocalContrastNormalization
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device kernelWidth:(NSInteger)kernelWidth kernelHeight:(NSInteger)kernelHeight {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
@@ -90,7 +90,7 @@
 
 @implementation MPSCNNNeuronAbsolute
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
@@ -98,11 +98,11 @@
 
 @implementation MPSCNNNeuronLinear
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device a:(float)a b:(float)b {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
@@ -110,11 +110,11 @@
 
 @implementation MPSCNNNeuronReLU
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device a:(float)a {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
@@ -122,7 +122,7 @@
 
 @implementation MPSCNNNeuronSigmoid
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
@@ -130,11 +130,11 @@
 
 @implementation MPSCNNNeuronTanH
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device a:(float)a b:(float)b {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
@@ -142,15 +142,15 @@
 
 @implementation MPSCNNPooling
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device kernelWidth:(NSInteger)kernelWidth kernelHeight:(NSInteger)kernelHeight {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device kernelWidth:(NSInteger)kernelWidth kernelHeight:(NSInteger)kernelHeight strideInPixelsX:(NSInteger)strideInPixelsX strideInPixelsY:(NSInteger)strideInPixelsY {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
@@ -170,11 +170,11 @@
 
 @implementation MPSCNNSpatialNormalization
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device kernelWidth:(NSInteger)kernelWidth kernelHeight:(NSInteger)kernelHeight {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end

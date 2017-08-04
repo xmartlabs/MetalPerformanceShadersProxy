@@ -3,19 +3,20 @@
 //
 
 #import "MPSKernel.h"
+#import "ErrorDefines.h"
 
 
 @implementation MPSKernel
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)copyWithZone:(nullable NSZone *)zone device:(nullable id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (id)copyWithZone:(nullable NSZone *)zone {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end

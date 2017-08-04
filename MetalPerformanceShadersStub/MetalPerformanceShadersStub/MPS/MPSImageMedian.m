@@ -3,23 +3,24 @@
 //
 
 #import "MPSImageMedian.h"
+#import "ErrorDefines.h"
 
 
 @implementation MPSImageMedian
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device kernelDiameter:(NSInteger)kernelDiameter {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 + (NSInteger)maxKernelDiameter {
-    return 0;
+    STUB_NOT_IMPLEMENTED
 }
 
 + (NSInteger)minKernelDiameter {
-    return 0;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
