@@ -8,6 +8,8 @@ We had to change all `NSUInteger` occurrences to `NSInteger` as Swift interprete
 
 `CVMetalTexture` and `CVMetalTextureCache` from `CoreVideo` have missing declarations if Metal is not available, so we copied that too, commenting out the Metal check because it depends on a variable defined in the framework. We also changed the include guard to a custom one, otherwise the copied headers won't be imported.
 
-We realized that the property `currentDrawable` in `MTKView` is of type `MTLDrawable` in the simulator but of type `CAMetalDrawable` (a subtype) in the device! And that `CAMetalDrawable` header does not exist for the simulator. So we added and stubbed it. The original header does not contain an include guard, so we had the extra problem of types redefinition. We added a precompiler guard to check if the original file was included or not.
+We realized that the property `currentDrawable` in `MTKView` is of type `MTLDrawable` in the simulator but of type `CAMetalDrawable` (a subtype) in the device! And that `CAMetalDrawable` header does not exist for the simulator. So we added and made a stub. The original header does not contain an include guard, so we had the extra problem of types redefinition. We added a precompiler guard to check if the original file was included or not.
 
-Then, we created a proxy that, using precompiler macros, imports the stub implementations or the real ones.
+For each stub method, an exception thrown is added to the body.
+
+Finally, we created a proxy that, using precompiler macros, imports the stub implementations or the real ones.

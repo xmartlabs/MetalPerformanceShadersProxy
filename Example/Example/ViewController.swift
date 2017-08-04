@@ -13,8 +13,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let device = MTLCreateSystemDefaultDevice()!
-        let _ = MPSImage.init(device: device, imageDescriptor: MPSImageDescriptor())
+        if let device = MTLCreateSystemDefaultDevice() {
+            let _ = MPSImage.init(device: device, imageDescriptor: MPSImageDescriptor())
+        }
+
+        MPSMatrixDescriptor.rowBytes(fromColumns: 0, dataType: .float32) // Crashes on simulator
 
         var _: CVMetalTextureCache
     }

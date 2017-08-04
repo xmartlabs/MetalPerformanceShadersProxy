@@ -3,26 +3,27 @@
 //
 
 #import "MPSMatrix.h"
+#import "ErrorDefines.h"
 
 
 @implementation MPSMatrix
 - (instancetype)initWithBuffer:(nonnull id <MTLBuffer>)buffer descriptor:(nonnull MPSMatrixDescriptor *)descriptor {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 - (instancetype)init {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
 
 @implementation MPSMatrixDescriptor
 + (instancetype)matrixDescriptorWithDimensions:(NSInteger)rows columns:(NSInteger)columns rowBytes:(NSInteger)rowBytes dataType:(MPSDataType)dataType {
-    return nil;
+    STUB_NOT_IMPLEMENTED
 }
 
 + (size_t)rowBytesFromColumns:(NSInteger)columns dataType:(MPSDataType)dataType {
-    return 0;
+    STUB_NOT_IMPLEMENTED
 }
 
 @end
