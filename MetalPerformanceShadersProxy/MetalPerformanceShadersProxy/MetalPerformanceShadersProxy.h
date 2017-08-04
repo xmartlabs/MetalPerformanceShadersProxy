@@ -14,7 +14,7 @@ FOUNDATION_EXPORT double MetalPerformanceShadersProxyVersionNumber;
 //! Project version string for MetalPerformanceShadersProxy.
 FOUNDATION_EXPORT const unsigned char MetalPerformanceShadersProxyVersionString[];
 
-#if TARGET_OS_SIMULATOR
+#if TARGET_OS_SIMULATOR // FIXME
     @import MetalPerformanceShadersStub;
 #else
     @import MetalPerformanceShaders;

@@ -1,5 +1,16 @@
+//
+//  CVMetalTextureCache.m
+//  MetalPerformanceShadersStub
+//
+//  Created by Santiago Castro on 7/25/17.
+//  Copyright © 2017 Xmartlabs. All rights reserved.
+//
+
+#import "Defines.h"
+
+#if STUB_ENABLED
+
 #import "CVMetalTextureCache.h"
-#import "ErrorDefines.h"
 
 CFTypeID CVMetalTextureCacheGetTypeID(void) {
     STUB_NOT_IMPLEMENTED
@@ -16,3 +27,5 @@ CVReturn CVMetalTextureCacheCreateTextureFromImage(CFAllocatorRef allocator, CVM
 void CVMetalTextureCacheFlush(CVMetalTextureCacheRef textureCache, CVOptionFlags options) {
     STUB_NOT_IMPLEMENTED
 }
+
+#endif

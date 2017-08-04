@@ -2,8 +2,11 @@
 // Created by Santiago Castro on 7/20/17.
 //
 
+#import "Defines.h"
+
+#if STUB_ENABLED
+
 #import "MPSImage.h"
-#import "ErrorDefines.h"
 
 @implementation MPSImage
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device imageDescriptor:(const MPSImageDescriptor *__nonnull)imageDescriptor {
@@ -57,3 +60,5 @@
 }
 
 @end
+
+#endif

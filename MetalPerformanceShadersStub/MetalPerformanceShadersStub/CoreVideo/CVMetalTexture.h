@@ -11,7 +11,7 @@
    @availability iOS 8.0 or later. Mac OS X 10.11 or later.
    @discussion A CoreVideo Metal Texture derives from an ImageBuffer, and is used for supplying source image data to Metal.
 
-*/
+ */
 
 #if !defined(__COREVIDEO_CVMETALTEXTURE_STUB_H__)
 #define __COREVIDEO_CVMETALTEXTURE_STUB_H__ 1

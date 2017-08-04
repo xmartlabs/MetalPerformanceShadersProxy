@@ -1,5 +1,16 @@
+//
+//  CVMetalTexture.m
+//  MetalPerformanceShadersStub
+//
+//  Created by Santiago Castro on 7/25/17.
+//  Copyright © 2017 Xmartlabs. All rights reserved.
+//
+
+#import "Defines.h"
+
+#if STUB_ENABLED
+
 #import "CVMetalTexture.h"
-#import "ErrorDefines.h"
 
 CFTypeID CVMetalTextureGetTypeID(void) {
     STUB_NOT_IMPLEMENTED
@@ -16,3 +27,5 @@ Boolean CVMetalTextureIsFlipped(CVMetalTextureRef image) {
 void CVMetalTextureGetCleanTexCoords(CVMetalTextureRef image, float *lowerLeft, float *lowerRight, float *upperRight, float *upperLeft) {
     STUB_NOT_IMPLEMENTED
 }
+
+#endif

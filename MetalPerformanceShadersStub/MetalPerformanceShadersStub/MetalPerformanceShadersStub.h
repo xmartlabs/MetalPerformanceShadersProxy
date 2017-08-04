@@ -6,6 +6,8 @@
 //  Copyright © 2017 Xmartlabs. All rights reserved.
 //
 
+#import "Defines.h"
+
 #import <Foundation/Foundation.h>
 
 //! Project version number for MetalPerformanceShadersStub.

@@ -2,8 +2,11 @@
 // Created by Santiago Castro on 7/20/17.
 //
 
+#import "Defines.h"
+
+#if STUB_ENABLED
+
 #import "MPSMatrixMultiplication.h"
-#import "ErrorDefines.h"
 
 @implementation MPSMatrixMultiplication
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device transposeLeft:(BOOL)transposeLeft transposeRight:(BOOL)transposeRight resultRows:(NSInteger)resultRows resultColumns:(NSInteger)resultColumns interiorColumns:(NSInteger)interiorColumns alpha:(double)alpha beta:(double)beta {
@@ -19,3 +22,5 @@
 }
 
 @end
+
+#endif

@@ -6,8 +6,11 @@
 //  Copyright © 2017 Xmartlabs. All rights reserved.
 //
 
+#import "Defines.h"
+
+#if STUB_ENABLED
+
 #import <Metal/Metal.h>
-#import "ErrorDefines.h"
 
 @implementation MTLFunctionConstantValues
 
@@ -36,3 +39,5 @@
 
 
 @end
+
+#endif

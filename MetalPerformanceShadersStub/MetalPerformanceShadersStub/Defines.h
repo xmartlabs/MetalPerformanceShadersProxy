@@ -6,11 +6,13 @@
 //  Copyright © 2017 Xmartlabs. All rights reserved.
 //
 
-#ifndef ErrorDefines_h
-#define ErrorDefines_h
+#ifndef DEFINES_H
+#define DEFINES_H
 
 #import <Foundation/Foundation.h>
 
+#define STUB_ENABLED TARGET_OS_SIMULATOR
+
 #define STUB_NOT_IMPLEMENTED @throw [NSException exceptionWithName:@"Stub!" reason:nil userInfo:nil];
 
-#endif /* ErrorDefines_h */
+#endif /* DEFINES_H */

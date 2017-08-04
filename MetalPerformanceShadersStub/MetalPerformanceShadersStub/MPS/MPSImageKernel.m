@@ -2,8 +2,11 @@
 // Created by Santiago Castro on 7/20/17.
 //
 
+#import "Defines.h"
+
+#if STUB_ENABLED
+
 #import "MPSImageKernel.h"
-#import "ErrorDefines.h"
 
 
 @implementation MPSBinaryImageKernel
@@ -43,3 +46,5 @@
 }
 
 @end
+
+#endif
