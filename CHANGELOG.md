@@ -2,7 +2,7 @@
 
 ## [0.1.3](https://github.com/xmartlabs/MetalPerformanceShadersProxy/releases/tag/0.1.3)
 
-* Make implementation stub files only compile on device
+* Make stub implementation files only compile on simulator.
 
 ## [0.1.2](https://github.com/xmartlabs/MetalPerformanceShadersProxy/releases/tag/0.1.2)
 
