@@ -1,0 +1,9 @@
+framework module MetalPerformanceShadersProxy {
+    umbrella header "MetalPerformanceShadersProxy.h"
+    export *
+
+    // This is just to avoid warnings of not included headers when compiling for a device.
+    explicit module Stub {
+        header "Includes.h"
+    }
+}
