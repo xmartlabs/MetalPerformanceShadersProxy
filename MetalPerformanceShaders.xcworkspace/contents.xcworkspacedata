@@ -8,6 +8,9 @@
       location = "group:MetalPerformanceShadersProxy/MetalPerformanceShadersProxy.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Example/Example.xcodeproj">
+      location = "group:/Users/dernst/Opensource/MetalPerformanceShadersProxy/Example/ProxyExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:StubExample/StubExample.xcodeproj">
    </FileRef>
 </Workspace>

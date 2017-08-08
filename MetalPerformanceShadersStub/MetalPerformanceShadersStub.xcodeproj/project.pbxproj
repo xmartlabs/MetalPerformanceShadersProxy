@@ -45,6 +45,8 @@
 		8F0693351F3522970004D3E9 /* Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0693341F3522970004D3E9 /* Defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F3283811F2BBBBE0061F068 /* CAMetalDrawable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3283801F2BBBBE0061F068 /* CAMetalDrawable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F52475E1F2BBDEF00F4789E /* CAMetalDrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F52475D1F2BBDEF00F4789E /* CAMetalDrawable.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		8F7D44AA1F38EE2600813658 /* Includes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44A91F38EE2600813658 /* Includes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F7D44B01F38F20900813658 /* ErrorDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44AF1F38F1D500813658 /* ErrorDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F8568881F2B78F400FCC79D /* CVMetalTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8568861F2B78F400FCC79D /* CVMetalTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F8568891F2B78F400FCC79D /* CVMetalTextureCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8568871F2B78F400FCC79D /* CVMetalTextureCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C189844C3DB62952BDC5F4A3 /* CVMetalTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = C1898458A5DEE5EDE125F0D6 /* CVMetalTexture.m */; settings = {COMPILER_FLAGS = "-w"; }; };
@@ -103,6 +105,8 @@
 		8F0693341F3522970004D3E9 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 		8F3283801F2BBBBE0061F068 /* CAMetalDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMetalDrawable.h; sourceTree = "<group>"; };
 		8F52475D1F2BBDEF00F4789E /* CAMetalDrawable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMetalDrawable.m; sourceTree = "<group>"; };
+		8F7D44A91F38EE2600813658 /* Includes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Includes.h; sourceTree = "<group>"; };
+		8F7D44AF1F38F1D500813658 /* ErrorDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErrorDefines.h; sourceTree = "<group>"; };
 		8F8568861F2B78F400FCC79D /* CVMetalTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVMetalTexture.h; sourceTree = "<group>"; };
 		8F8568871F2B78F400FCC79D /* CVMetalTextureCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVMetalTextureCache.h; sourceTree = "<group>"; };
 		C1898458A5DEE5EDE125F0D6 /* CVMetalTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVMetalTexture.m; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 				46C5A8EE1F27C6A0006E0D08 /* MPS */,
 				46C5A8D71F27C660006E0D08 /* MetalPerformanceShadersStub.h */,
 				46C5A8D81F27C660006E0D08 /* Info.plist */,
+				8F7D44A91F38EE2600813658 /* Includes.h */,
+				8F7D44AF1F38F1D500813658 /* ErrorDefines.h */,
 			);
 			path = MetalPerformanceShadersStub;
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 				46C5A8E51F27C660006E0D08 /* MetalPerformanceShadersStub.h in Headers */,
 				46C5A9101F27C6AC006E0D08 /* MPSImage.h in Headers */,
 				8F8568891F2B78F400FCC79D /* CVMetalTextureCache.h in Headers */,
+				8F7D44B01F38F20900813658 /* ErrorDefines.h in Headers */,
 				46C5A9231F27C6AC006E0D08 /* MPSImageKernel.h in Headers */,
 				46C5A9121F27C6AC006E0D08 /* MPSImageConvolution.h in Headers */,
 				46C5A90E1F27C6AC006E0D08 /* MPSCNN.h in Headers */,
@@ -253,6 +260,7 @@
 				8F3283811F2BBBBE0061F068 /* CAMetalDrawable.h in Headers */,
 				46C5A92B1F27C6AC006E0D08 /* MPSKernel.h in Headers */,
 				46C5A9141F27C6AC006E0D08 /* MPSImageHistogram.h in Headers */,
+				8F7D44AA1F38EE2600813658 /* Includes.h in Headers */,
 				46C5A91A1F27C6AC006E0D08 /* MPSMatrix.h in Headers */,
 				46C5A9161F27C6AC006E0D08 /* MPSImageMedian.h in Headers */,
 				46C5A91C1F27C6AC006E0D08 /* MPSMatrixMultiplication.h in Headers */,

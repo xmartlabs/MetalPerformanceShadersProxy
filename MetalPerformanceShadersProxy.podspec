@@ -9,7 +9,12 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/xmartlabs'
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
-  s.ios.source_files = '{MetalPerformanceShadersStub/MetalPerformanceShadersStub, MetalPerformanceShadersProxy/MetalPerformanceShadersProxy}/**/*.{h,m}'
+  s.default_subspec = 'Proxy'
+
+  s.subspec 'Proxy' do |sp|
+    sp.ios.source_files = '{MetalPerformanceShadersProxy/MetalPerformanceShadersProxy,MetalPerformanceShadersStub/MetalPerformanceShadersStub}/**/*.{h,m}'
+    sp.ios.exclude_files = 'MetalPerformanceShadersStub/MetalPerformanceShadersStub/Defines.h'
+  end
 
   s.subspec 'Stub' do |sp|
     sp.ios.source_files = 'MetalPerformanceShadersStub/MetalPerformanceShadersStub/**/*.{h,m}'

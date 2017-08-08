@@ -6,7 +6,9 @@
 //  Copyright © 2017 Xmartlabs. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Defines.h"
+
+#import <Foundation/Foundation.h>
 
 //! Project version number for MetalPerformanceShadersProxy.
 FOUNDATION_EXPORT double MetalPerformanceShadersProxyVersionNumber;
@@ -14,8 +16,8 @@ FOUNDATION_EXPORT double MetalPerformanceShadersProxyVersionNumber;
 //! Project version string for MetalPerformanceShadersProxy.
 FOUNDATION_EXPORT const unsigned char MetalPerformanceShadersProxyVersionString[];
 
-#if TARGET_OS_SIMULATOR // FIXME
-    @import MetalPerformanceShadersStub;
+#if STUB_ENABLED
+    #import "Includes.h"
 #else
     @import MetalPerformanceShaders;
 #endif

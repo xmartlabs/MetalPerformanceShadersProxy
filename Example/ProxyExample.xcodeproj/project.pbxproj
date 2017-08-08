@@ -15,8 +15,6 @@
 		28F828DA1C4B714D00330CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F828D81C4B714D00330CF4 /* LaunchScreen.storyboard */; };
 		46C5A94D1F27E1EC006E0D08 /* MetalPerformanceShadersProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FEC7D51F27B96300ADE379 /* MetalPerformanceShadersProxy.framework */; };
 		46C5A94E1F27E1EC006E0D08 /* MetalPerformanceShadersProxy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46FEC7D51F27B96300ADE379 /* MetalPerformanceShadersProxy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		46C5A9511F27E259006E0D08 /* MetalPerformanceShadersStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C5A9491F27E155006E0D08 /* MetalPerformanceShadersStub.framework */; };
-		46C5A9521F27E259006E0D08 /* MetalPerformanceShadersStub.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46C5A9491F27E155006E0D08 /* MetalPerformanceShadersStub.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,33 +25,12 @@
 			remoteGlobalIDString = 28F828CB1C4B714D00330CF4;
 			remoteInfo = Example;
 		};
-		46C5A9481F27E155006E0D08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46C5A9431F27E155006E0D08 /* MetalPerformanceShadersStub.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 46C5A8D41F27C660006E0D08;
-			remoteInfo = MetalPerformanceShadersStub;
-		};
-		46C5A94A1F27E155006E0D08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46C5A9431F27E155006E0D08 /* MetalPerformanceShadersStub.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 46C5A8DD1F27C660006E0D08;
-			remoteInfo = MetalPerformanceShadersStubTests;
-		};
 		46C5A94F1F27E1EC006E0D08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46FEC7CF1F27B96300ADE379 /* MetalPerformanceShadersProxy.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 46FEC7A91F27B82D00ADE379;
 			remoteInfo = MetalPerformanceShadersProxy;
-		};
-		46C5A9531F27E259006E0D08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46C5A9431F27E155006E0D08 /* MetalPerformanceShadersStub.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 46C5A8D31F27C660006E0D08;
-			remoteInfo = MetalPerformanceShadersStub;
 		};
 		46FEC7D41F27B96300ADE379 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -78,7 +55,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				46C5A9521F27E259006E0D08 /* MetalPerformanceShadersStub.framework in Embed Frameworks */,
 				46C5A94E1F27E1EC006E0D08 /* MetalPerformanceShadersProxy.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -88,19 +64,15 @@
 
 /* Begin PBXFileReference section */
 		287D0A711C4B7877004566D6 /* ExampleUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
-		28F828CC1C4B714D00330CF4 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F828CC1C4B714D00330CF4 /* ProxyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProxyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F828CF1C4B714D00330CF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Example/AppDelegate.swift; sourceTree = "<group>"; };
 		28F828D11C4B714D00330CF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Example/ViewController.swift; sourceTree = "<group>"; };
 		28F828D41C4B714D00330CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28F828D61C4B714D00330CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Example/Assets.xcassets; sourceTree = "<group>"; };
 		28F828D91C4B714D00330CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28F828DB1C4B714D00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Example/Info.plist; sourceTree = "<group>"; };
-		28F828E01C4B714D00330CF4 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F828E01C4B714D00330CF4 /* ProxyExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F828E61C4B714D00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46C5A9371F27C7EB006E0D08 /* MetalPerformanceShadersStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShadersStub.framework; path = "../MetalPerformanceShadersStub/build/Debug-iphoneos/MetalPerformanceShadersStub.framework"; sourceTree = "<group>"; };
-		46C5A93B1F27C93B006E0D08 /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
-		46C5A9401F27E03C006E0D08 /* MetalPerformanceShadersStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShadersStub.framework; path = "../../../Library/Developer/Xcode/DerivedData/MetalPerformanceShaders-gbeascojvbtuiufyswnluoquefbq/Build/Products/Debug-iphoneos/MetalPerformanceShadersStub.framework"; sourceTree = "<group>"; };
-		46C5A9431F27E155006E0D08 /* MetalPerformanceShadersStub.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MetalPerformanceShadersStub.xcodeproj; path = ../MetalPerformanceShadersStub/MetalPerformanceShadersStub.xcodeproj; sourceTree = "<group>"; };
 		46FEC7CF1F27B96300ADE379 /* MetalPerformanceShadersProxy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MetalPerformanceShadersProxy.xcodeproj; path = ../MetalPerformanceShadersProxy/MetalPerformanceShadersProxy.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46C5A9511F27E259006E0D08 /* MetalPerformanceShadersStub.framework in Frameworks */,
 				46C5A94D1F27E1EC006E0D08 /* MetalPerformanceShadersProxy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,7 +101,6 @@
 				28F828CE1C4B714D00330CF4 /* Example */,
 				28F828E31C4B714D00330CF4 /* ExampleUITests */,
 				28F828CD1C4B714D00330CF4 /* Products */,
-				46C5A9431F27E155006E0D08 /* MetalPerformanceShadersStub.xcodeproj */,
 				46FEC7CF1F27B96300ADE379 /* MetalPerformanceShadersProxy.xcodeproj */,
 				46C5A9361F27C7EA006E0D08 /* Frameworks */,
 			);
@@ -139,8 +109,8 @@
 		28F828CD1C4B714D00330CF4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28F828CC1C4B714D00330CF4 /* Example.app */,
-				28F828E01C4B714D00330CF4 /* ExampleUITests.xctest */,
+				28F828CC1C4B714D00330CF4 /* ProxyExample.app */,
+				28F828E01C4B714D00330CF4 /* ProxyExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,20 +140,8 @@
 		46C5A9361F27C7EA006E0D08 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				46C5A9401F27E03C006E0D08 /* MetalPerformanceShadersStub.framework */,
-				46C5A93B1F27C93B006E0D08 /* MetalPerformanceShaders.framework */,
-				46C5A9371F27C7EB006E0D08 /* MetalPerformanceShadersStub.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		46C5A9441F27E155006E0D08 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				46C5A9491F27E155006E0D08 /* MetalPerformanceShadersStub.framework */,
-				46C5A94B1F27E155006E0D08 /* MetalPerformanceShadersStubTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		46FEC7D01F27B96300ADE379 /* Products */ = {
@@ -198,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28F828CB1C4B714D00330CF4 /* Example */ = {
+		28F828CB1C4B714D00330CF4 /* ProxyExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28F828E91C4B714D00330CF4 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = 28F828E91C4B714D00330CF4 /* Build configuration list for PBXNativeTarget "ProxyExample" */;
 			buildPhases = (
 				28F828C81C4B714D00330CF4 /* Sources */,
 				28F828C91C4B714D00330CF4 /* Frameworks */,
@@ -211,16 +169,15 @@
 			);
 			dependencies = (
 				46C5A9501F27E1EC006E0D08 /* PBXTargetDependency */,
-				46C5A9541F27E259006E0D08 /* PBXTargetDependency */,
 			);
-			name = Example;
+			name = ProxyExample;
 			productName = Example;
-			productReference = 28F828CC1C4B714D00330CF4 /* Example.app */;
+			productReference = 28F828CC1C4B714D00330CF4 /* ProxyExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		28F828DF1C4B714D00330CF4 /* ExampleUITests */ = {
+		28F828DF1C4B714D00330CF4 /* ProxyExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28F828EC1C4B714D00330CF4 /* Build configuration list for PBXNativeTarget "ExampleUITests" */;
+			buildConfigurationList = 28F828EC1C4B714D00330CF4 /* Build configuration list for PBXNativeTarget "ProxyExampleUITests" */;
 			buildPhases = (
 				28F828DC1C4B714D00330CF4 /* Sources */,
 				28F828DD1C4B714D00330CF4 /* Frameworks */,
@@ -231,9 +188,9 @@
 			dependencies = (
 				28F828E21C4B714D00330CF4 /* PBXTargetDependency */,
 			);
-			name = ExampleUITests;
+			name = ProxyExampleUITests;
 			productName = ExampleUITests;
-			productReference = 28F828E01C4B714D00330CF4 /* ExampleUITests.xctest */;
+			productReference = 28F828E01C4B714D00330CF4 /* ProxyExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -257,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 28F828C71C4B714D00330CF4 /* Build configuration list for PBXProject "Example" */;
+			buildConfigurationList = 28F828C71C4B714D00330CF4 /* Build configuration list for PBXProject "ProxyExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -273,34 +230,16 @@
 					ProductGroup = 46FEC7D01F27B96300ADE379 /* Products */;
 					ProjectRef = 46FEC7CF1F27B96300ADE379 /* MetalPerformanceShadersProxy.xcodeproj */;
 				},
-				{
-					ProductGroup = 46C5A9441F27E155006E0D08 /* Products */;
-					ProjectRef = 46C5A9431F27E155006E0D08 /* MetalPerformanceShadersStub.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
-				28F828CB1C4B714D00330CF4 /* Example */,
-				28F828DF1C4B714D00330CF4 /* ExampleUITests */,
+				28F828CB1C4B714D00330CF4 /* ProxyExample */,
+				28F828DF1C4B714D00330CF4 /* ProxyExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		46C5A9491F27E155006E0D08 /* MetalPerformanceShadersStub.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = MetalPerformanceShadersStub.framework;
-			remoteRef = 46C5A9481F27E155006E0D08 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		46C5A94B1F27E155006E0D08 /* MetalPerformanceShadersStubTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = MetalPerformanceShadersStubTests.xctest;
-			remoteRef = 46C5A94A1F27E155006E0D08 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		46FEC7D51F27B96300ADE379 /* MetalPerformanceShadersProxy.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -360,18 +299,13 @@
 /* Begin PBXTargetDependency section */
 		28F828E21C4B714D00330CF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28F828CB1C4B714D00330CF4 /* Example */;
+			target = 28F828CB1C4B714D00330CF4 /* ProxyExample */;
 			targetProxy = 28F828E11C4B714D00330CF4 /* PBXContainerItemProxy */;
 		};
 		46C5A9501F27E1EC006E0D08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MetalPerformanceShadersProxy;
 			targetProxy = 46C5A94F1F27E1EC006E0D08 /* PBXContainerItemProxy */;
-		};
-		46C5A9541F27E259006E0D08 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MetalPerformanceShadersStub;
-			targetProxy = 46C5A9531F27E259006E0D08 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -486,30 +420,38 @@
 		28F828EA1C4B714D00330CF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6F2G55XL63;
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xmartlabs.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_SUPPRESS_WARNINGS = NO;
 				SWIFT_VERSION = 3.0;
+				WARNING_CFLAGS = "";
 			};
 			name = Debug;
 		};
 		28F828EB1C4B714D00330CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6F2G55XL63;
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xmartlabs.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_SUPPRESS_WARNINGS = NO;
 				SWIFT_VERSION = 3.0;
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};
@@ -545,7 +487,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28F828C71C4B714D00330CF4 /* Build configuration list for PBXProject "Example" */ = {
+		28F828C71C4B714D00330CF4 /* Build configuration list for PBXProject "ProxyExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28F828E71C4B714D00330CF4 /* Debug */,
@@ -554,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28F828E91C4B714D00330CF4 /* Build configuration list for PBXNativeTarget "Example" */ = {
+		28F828E91C4B714D00330CF4 /* Build configuration list for PBXNativeTarget "ProxyExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28F828EA1C4B714D00330CF4 /* Debug */,
@@ -563,7 +505,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28F828EC1C4B714D00330CF4 /* Build configuration list for PBXNativeTarget "ExampleUITests" */ = {
+		28F828EC1C4B714D00330CF4 /* Build configuration list for PBXNativeTarget "ProxyExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28F828ED1C4B714D00330CF4 /* Debug */,

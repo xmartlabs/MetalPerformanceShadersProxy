@@ -1,8 +1,8 @@
 //
 //  Defines.h
-//  MetalPerformanceShadersStub
+//  MetalPerformanceShadersProxy
 //
-//  Created by Santiago Castro on 8/4/17.
+//  Created by Santiago Castro on 8/7/17.
 //  Copyright © 2017 Xmartlabs. All rights reserved.
 //
 
@@ -11,6 +11,6 @@
 
 #import "ErrorDefines.h"
 
-#define STUB_ENABLED 1
+#define STUB_ENABLED TARGET_OS_SIMULATOR
 
 #endif /* DEFINES_H */
