@@ -106,7 +106,7 @@ If you use **MetalPerformanceShadersProxy** in your app, we would love to hear a
 
 Follow these 3 steps to run Example project: clone MetalPerformanceShadersProxy repository, open MetalPerformanceShadersProxy workspace and run the *Example* project.
 
-TODO: add Bender example
+As a real example, you can check out [Bender](https://github.com/xmartlabs/Bender) library.
 
 ## Installation
 
