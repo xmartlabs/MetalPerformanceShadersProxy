@@ -8,6 +8,9 @@
 
 #import "MPSKernel.h"
 
+BOOL MPSSupportsMTLDevice( __nullable id <MTLDevice> device )  MPS_AVAILABLE_STARTING( __MAC_10_11, __IPHONE_9_0, __TVOS_9_0) {
+    STUB_NOT_IMPLEMENTED
+};
 
 @implementation MPSKernel
 - (instancetype)initWithDevice:(nonnull id <MTLDevice>)device {
