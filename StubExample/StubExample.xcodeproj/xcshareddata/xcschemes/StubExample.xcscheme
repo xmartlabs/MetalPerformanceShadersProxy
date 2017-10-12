@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0900"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "46FEC7A91F27B82D00ADE379"
-               BuildableName = "MetalPerformanceShadersProxy.framework"
-               BlueprintName = "MetalPerformanceShadersProxy"
-               ReferencedContainer = "container:MetalPerformanceShadersProxy.xcodeproj">
+               BlueprintIdentifier = "46CD822A1F3A34D800C53352"
+               BuildableName = "StubExample.app"
+               BlueprintName = "StubExample"
+               ReferencedContainer = "container:StubExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,20 +33,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "46FEC7B21F27B82D00ADE379"
-               BuildableName = "MetalPerformanceShadersProxyTests.xctest"
-               BlueprintName = "MetalPerformanceShadersProxyTests"
-               ReferencedContainer = "container:MetalPerformanceShadersProxy.xcodeproj">
+               BlueprintIdentifier = "46CD823E1F3A34D900C53352"
+               BuildableName = "StubExampleTests.xctest"
+               BlueprintName = "StubExampleTests"
+               ReferencedContainer = "container:StubExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "46FEC7A91F27B82D00ADE379"
-            BuildableName = "MetalPerformanceShadersProxy.framework"
-            BlueprintName = "MetalPerformanceShadersProxy"
-            ReferencedContainer = "container:MetalPerformanceShadersProxy.xcodeproj">
+            BlueprintIdentifier = "46CD822A1F3A34D800C53352"
+            BuildableName = "StubExample.app"
+            BlueprintName = "StubExample"
+            ReferencedContainer = "container:StubExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,15 +63,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "46FEC7A91F27B82D00ADE379"
-            BuildableName = "MetalPerformanceShadersProxy.framework"
-            BlueprintName = "MetalPerformanceShadersProxy"
-            ReferencedContainer = "container:MetalPerformanceShadersProxy.xcodeproj">
+            BlueprintIdentifier = "46CD822A1F3A34D800C53352"
+            BuildableName = "StubExample.app"
+            BlueprintName = "StubExample"
+            ReferencedContainer = "container:StubExample.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -81,15 +82,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "46FEC7A91F27B82D00ADE379"
-            BuildableName = "MetalPerformanceShadersProxy.framework"
-            BlueprintName = "MetalPerformanceShadersProxy"
-            ReferencedContainer = "container:MetalPerformanceShadersProxy.xcodeproj">
+            BlueprintIdentifier = "46CD822A1F3A34D800C53352"
+            BuildableName = "StubExample.app"
+            BlueprintName = "StubExample"
+            ReferencedContainer = "container:StubExample.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

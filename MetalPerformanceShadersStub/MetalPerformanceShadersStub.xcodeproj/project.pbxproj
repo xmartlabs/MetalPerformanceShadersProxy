@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		467E296A1F27F800000E99B5 /* MTLFunctionConstantValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 467E29691F27F800000E99B5 /* MTLFunctionConstantValues.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		46C5A8DE1F27C660006E0D08 /* MetalPerformanceShadersStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C5A8D41F27C660006E0D08 /* MetalPerformanceShadersStub.framework */; };
 		46C5A8E31F27C660006E0D08 /* MetalPerformanceShadersStubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8E21F27C660006E0D08 /* MetalPerformanceShadersStubTests.m */; };
 		46C5A8E51F27C660006E0D08 /* MetalPerformanceShadersStub.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8D71F27C660006E0D08 /* MetalPerformanceShadersStub.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,7 +63,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		467E29691F27F800000E99B5 /* MTLFunctionConstantValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTLFunctionConstantValues.m; path = Metal/MTLFunctionConstantValues.m; sourceTree = "<group>"; };
 		46C5A8D41F27C660006E0D08 /* MetalPerformanceShadersStub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MetalPerformanceShadersStub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46C5A8D71F27C660006E0D08 /* MetalPerformanceShadersStub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetalPerformanceShadersStub.h; sourceTree = "<group>"; };
 		46C5A8D81F27C660006E0D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -132,14 +130,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		467E29661F27F35F000E99B5 /* Metal */ = {
-			isa = PBXGroup;
-			children = (
-				467E29691F27F800000E99B5 /* MTLFunctionConstantValues.m */,
-			);
-			name = Metal;
-			sourceTree = "<group>";
-		};
 		46C5A8CA1F27C660006E0D08 = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +154,6 @@
 				8F0693341F3522970004D3E9 /* Defines.h */,
 				8F32837F1F2BBBBE0061F068 /* QuartzCore */,
 				8F8568851F2B78F400FCC79D /* CoreVideo */,
-				467E29661F27F35F000E99B5 /* Metal */,
 				46C5A8EE1F27C6A0006E0D08 /* MPS */,
 				46C5A8D71F27C660006E0D08 /* MetalPerformanceShadersStub.h */,
 				46C5A8D81F27C660006E0D08 /* Info.plist */,
@@ -378,7 +367,6 @@
 				46C5A9111F27C6AC006E0D08 /* MPSImage.m in Sources */,
 				46C5A92A1F27C6AC006E0D08 /* MPSImageTranspose.m in Sources */,
 				8F52475E1F2BBDEF00F4789E /* CAMetalDrawable.m in Sources */,
-				467E296A1F27F800000E99B5 /* MTLFunctionConstantValues.m in Sources */,
 				46C5A90F1F27C6AC006E0D08 /* MPSCNN.m in Sources */,
 				46C5A9131F27C6AC006E0D08 /* MPSImageConvolution.m in Sources */,
 				46C5A9261F27C6AC006E0D08 /* MPSImageResampling.m in Sources */,
