@@ -88,7 +88,7 @@ See [CREATION](CREATION.md) for an explanation.
 ## Requirements
 
 * iOS 9.0+
-* Xcode 8.3+
+* Xcode 9.0+
 
 ## Getting involved
 
@@ -117,13 +117,13 @@ As a real example, you can check out the [Bender](https://github.com/xmartlabs/B
 To install MetalPerformanceShadersProxy, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MetalPerformanceShadersProxy', '~> 0.1'
+pod 'MetalPerformanceShadersProxy', '~> 0.2'
 ```
 
 If you just want the stub:
 
 ```ruby
-pod 'MetalPerformanceShadersProxy/Stub', '~> 0.1'
+pod 'MetalPerformanceShadersProxy/Stub', '~> 0.2'
 ```
 
 ### Carthage
@@ -133,7 +133,7 @@ pod 'MetalPerformanceShadersProxy/Stub', '~> 0.1'
 To install MetalPerformanceShadersProxy, simply add the following line to your Cartfile:
 
 ```ogdl
-github "xmartlabs/MetalPerformanceShadersProxy" ~> 0.1
+github "xmartlabs/MetalPerformanceShadersProxy" ~> 0.2
 ```
 
 ## Author
