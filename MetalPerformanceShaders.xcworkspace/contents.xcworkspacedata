@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:MetalPerformanceShadersProxy/MetalPerformanceShadersProxy.xcodeproj">
+      location = "group:MetalPerformanceShadersStub/MetalPerformanceShadersStub.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:MetalPerformanceShadersStub/MetalPerformanceShadersStub.xcodeproj">
+      location = "group:MetalPerformanceShadersProxy/MetalPerformanceShadersProxy.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:StubExample/StubExample.xcodeproj">
