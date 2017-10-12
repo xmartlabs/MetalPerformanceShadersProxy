@@ -73,8 +73,6 @@
 		46CD823F1F3A34D900C53352 /* StubExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StubExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CD82431F3A34D900C53352 /* StubExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubExampleTests.swift; sourceTree = "<group>"; };
 		46CD82451F3A34D900C53352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46CD824E1F3A34D900C53352 /* StubExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubExampleUITests.swift; sourceTree = "<group>"; };
-		46CD82501F3A34D900C53352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46CD825C1F3A34EC00C53352 /* MetalPerformanceShadersStub.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MetalPerformanceShadersStub.xcodeproj; path = ../MetalPerformanceShadersStub/MetalPerformanceShadersStub.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +100,6 @@
 			children = (
 				46CD822D1F3A34D800C53352 /* StubExample */,
 				46CD82421F3A34D900C53352 /* StubExampleTests */,
-				46CD824D1F3A34D900C53352 /* StubExampleUITests */,
 				46CD822C1F3A34D800C53352 /* Products */,
 				46CD825C1F3A34EC00C53352 /* MetalPerformanceShadersStub.xcodeproj */,
 			);
@@ -137,15 +134,6 @@
 				46CD82451F3A34D900C53352 /* Info.plist */,
 			);
 			path = StubExampleTests;
-			sourceTree = "<group>";
-		};
-		46CD824D1F3A34D900C53352 /* StubExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				46CD824E1F3A34D900C53352 /* StubExampleUITests.swift */,
-				46CD82501F3A34D900C53352 /* Info.plist */,
-			);
-			path = StubExampleUITests;
 			sourceTree = "<group>";
 		};
 		46CD825D1F3A34EC00C53352 /* Products */ = {

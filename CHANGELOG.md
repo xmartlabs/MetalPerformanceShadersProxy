@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.2.0](https://github.com/xmartlabs/MetalPerformanceShadersProxy/releases/tag/0.2.0)
+
+* Xcode 9 compatibility.
+
 ## [0.1.5](https://github.com/xmartlabs/MetalPerformanceShadersProxy/releases/tag/0.1.5)
 
 * Add a stub for `MPSSupportsMTLDevice`.

@@ -7,6 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <Metal/Metal.h>
+#import <MetalPerformanceShadersStub.h>
 
 @interface MetalPerformanceShadersStubTests : XCTestCase
 
@@ -24,7 +26,10 @@
     [super tearDown];
 }
 
-- (void)testExample {
+- (void)testStub {
+    
+    
+    
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }

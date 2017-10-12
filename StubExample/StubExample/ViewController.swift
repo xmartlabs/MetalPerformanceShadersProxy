@@ -10,17 +10,15 @@ import UIKit
 import Metal
 import MetalPerformanceShadersStub
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         if let device = MTLCreateSystemDefaultDevice() {
             let _ = MPSImage.init(device: device, imageDescriptor: MPSImageDescriptor())
         }
-
-        MPSMatrixDescriptor.rowBytes(fromColumns: 0, dataType: .float32) // Crashes always because it uses just the Stub
-
-        var _: CVMetalTextureCache
+//        MPSMatrixDescriptor.rowBytes(fromColumns: 0, dataType: .float32) // Crashes always because it uses just the Stub
     }
-    
 }
