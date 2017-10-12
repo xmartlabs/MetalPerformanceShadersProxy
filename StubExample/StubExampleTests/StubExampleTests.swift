@@ -8,6 +8,7 @@
 
 import XCTest
 @testable import StubExample
+import MetalPerformanceShadersStub
 
 class StubExampleTests: XCTestCase {
     
@@ -21,9 +22,19 @@ class StubExampleTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testStub() {
+        
+        var failure = false
+        SwiftTryCatch.tryRun({
+            // try something
+            if let device = MTLCreateSystemDefaultDevice() {
+                let _ = MPSImage.init(device: device, imageDescriptor: MPSImageDescriptor())
+            }
+            MPSMatrixDescriptor.rowBytes(fromColumns: 0, dataType: .float32) // Crashes always because it uses just the Stub
+        }, catchRun: { (error) in
+            failure = true
+        }, finallyRun: {})
+        XCTAssert(failure, "Stub haven't invoked!")
     }
     
     func testPerformanceExample() {
