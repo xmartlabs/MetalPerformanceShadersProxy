@@ -6,8 +6,6 @@ env:
     - DESTINATION="generic/platform=iOS" SCHEME="MetalPerformanceShadersStub" SDK=iphoneos11.0
     - DESTINATION="OS=11.0,name=iPhone 8" SCHEME="MetalPerformanceShadersProxy" SDK=iphonesimulator11.0
     - DESTINATION="generic/platform=iOS" SCHEME="MetalPerformanceShadersProxy" SDK=iphoneos11.0
-    - DESTINATION="OS=11.0,name=iPhone 8" SCHEME="StubExample" SDK=iphonesimulator11.0
-    - DESTINATION="generic/platform=iOS" SCHEME="StubExample" SDK=iphoneos11.0
 
 before_install:
   - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
