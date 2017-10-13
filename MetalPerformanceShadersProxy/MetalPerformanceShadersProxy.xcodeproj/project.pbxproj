@@ -14,37 +14,6 @@
 		8F7D44811F38EDA400813658 /* CVMetalTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D44551F38EDA400813658 /* CVMetalTexture.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		8F7D44821F38EDA400813658 /* CVMetalTextureCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44561F38EDA400813658 /* CVMetalTextureCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F7D44831F38EDA400813658 /* CVMetalTextureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D44571F38EDA400813658 /* CVMetalTextureCache.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D44881F38EDA400813658 /* MPSCNN.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D445E1F38EDA400813658 /* MPSCNN.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7D44891F38EDA400813658 /* MPSCNN.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D445F1F38EDA400813658 /* MPSCNN.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D448A1F38EDA400813658 /* MPSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44601F38EDA400813658 /* MPSImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7D448B1F38EDA400813658 /* MPSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D44611F38EDA400813658 /* MPSImage.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D448C1F38EDA400813658 /* MPSImageConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44621F38EDA400813658 /* MPSImageConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7D448D1F38EDA400813658 /* MPSImageConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D44631F38EDA400813658 /* MPSImageConversion.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D448E1F38EDA400813658 /* MPSImageConvolution.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44641F38EDA400813658 /* MPSImageConvolution.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7D448F1F38EDA400813658 /* MPSImageConvolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D44651F38EDA400813658 /* MPSImageConvolution.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D44901F38EDA400813658 /* MPSImageHistogram.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44661F38EDA400813658 /* MPSImageHistogram.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7D44911F38EDA400813658 /* MPSImageHistogram.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D44671F38EDA400813658 /* MPSImageHistogram.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D44921F38EDA400813658 /* MPSImageIntegral.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44681F38EDA400813658 /* MPSImageIntegral.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7D44931F38EDA400813658 /* MPSImageIntegral.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D44691F38EDA400813658 /* MPSImageIntegral.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D44941F38EDA400813658 /* MPSImageKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D446A1F38EDA400813658 /* MPSImageKernel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7D44951F38EDA400813658 /* MPSImageKernel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D446B1F38EDA400813658 /* MPSImageKernel.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D44961F38EDA400813658 /* MPSImageMedian.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D446C1F38EDA400813658 /* MPSImageMedian.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7D44971F38EDA400813658 /* MPSImageMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D446D1F38EDA400813658 /* MPSImageMedian.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D44981F38EDA400813658 /* MPSImageMorphology.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D446E1F38EDA400813658 /* MPSImageMorphology.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7D44991F38EDA400813658 /* MPSImageMorphology.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D446F1F38EDA400813658 /* MPSImageMorphology.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D449A1F38EDA400813658 /* MPSImageResampling.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44701F38EDA400813658 /* MPSImageResampling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7D449B1F38EDA400813658 /* MPSImageResampling.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D44711F38EDA400813658 /* MPSImageResampling.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D449C1F38EDA400813658 /* MPSImageThreshold.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44721F38EDA400813658 /* MPSImageThreshold.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7D449D1F38EDA400813658 /* MPSImageThreshold.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D44731F38EDA400813658 /* MPSImageThreshold.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D449E1F38EDA400813658 /* MPSImageTranspose.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44741F38EDA400813658 /* MPSImageTranspose.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7D449F1F38EDA400813658 /* MPSImageTranspose.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D44751F38EDA400813658 /* MPSImageTranspose.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D44A01F38EDA400813658 /* MPSKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44761F38EDA400813658 /* MPSKernel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7D44A11F38EDA400813658 /* MPSKernel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D44771F38EDA400813658 /* MPSKernel.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D44A21F38EDA400813658 /* MPSMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44781F38EDA400813658 /* MPSMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7D44A31F38EDA400813658 /* MPSMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D44791F38EDA400813658 /* MPSMatrix.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D44A41F38EDA400813658 /* MPSMatrixMultiplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D447A1F38EDA400813658 /* MPSMatrixMultiplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7D44A51F38EDA400813658 /* MPSMatrixMultiplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D447B1F38EDA400813658 /* MPSMatrixMultiplication.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		8F7D44A61F38EDA400813658 /* MPSTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D447C1F38EDA400813658 /* MPSTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F7D44A71F38EDA400813658 /* CAMetalDrawable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D447E1F38EDA400813658 /* CAMetalDrawable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F7D44A81F38EDA400813658 /* CAMetalDrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D447F1F38EDA400813658 /* CAMetalDrawable.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		8F7D44AC1F38EE5600813658 /* Includes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44AB1F38EE5600813658 /* Includes.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -90,37 +59,6 @@
 		8F7D44551F38EDA400813658 /* CVMetalTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVMetalTexture.m; sourceTree = "<group>"; };
 		8F7D44561F38EDA400813658 /* CVMetalTextureCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVMetalTextureCache.h; sourceTree = "<group>"; };
 		8F7D44571F38EDA400813658 /* CVMetalTextureCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVMetalTextureCache.m; sourceTree = "<group>"; };
-		8F7D445E1F38EDA400813658 /* MPSCNN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSCNN.h; sourceTree = "<group>"; };
-		8F7D445F1F38EDA400813658 /* MPSCNN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSCNN.m; sourceTree = "<group>"; };
-		8F7D44601F38EDA400813658 /* MPSImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSImage.h; sourceTree = "<group>"; };
-		8F7D44611F38EDA400813658 /* MPSImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSImage.m; sourceTree = "<group>"; };
-		8F7D44621F38EDA400813658 /* MPSImageConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSImageConversion.h; sourceTree = "<group>"; };
-		8F7D44631F38EDA400813658 /* MPSImageConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSImageConversion.m; sourceTree = "<group>"; };
-		8F7D44641F38EDA400813658 /* MPSImageConvolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSImageConvolution.h; sourceTree = "<group>"; };
-		8F7D44651F38EDA400813658 /* MPSImageConvolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSImageConvolution.m; sourceTree = "<group>"; };
-		8F7D44661F38EDA400813658 /* MPSImageHistogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSImageHistogram.h; sourceTree = "<group>"; };
-		8F7D44671F38EDA400813658 /* MPSImageHistogram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSImageHistogram.m; sourceTree = "<group>"; };
-		8F7D44681F38EDA400813658 /* MPSImageIntegral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSImageIntegral.h; sourceTree = "<group>"; };
-		8F7D44691F38EDA400813658 /* MPSImageIntegral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSImageIntegral.m; sourceTree = "<group>"; };
-		8F7D446A1F38EDA400813658 /* MPSImageKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSImageKernel.h; sourceTree = "<group>"; };
-		8F7D446B1F38EDA400813658 /* MPSImageKernel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSImageKernel.m; sourceTree = "<group>"; };
-		8F7D446C1F38EDA400813658 /* MPSImageMedian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSImageMedian.h; sourceTree = "<group>"; };
-		8F7D446D1F38EDA400813658 /* MPSImageMedian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSImageMedian.m; sourceTree = "<group>"; };
-		8F7D446E1F38EDA400813658 /* MPSImageMorphology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSImageMorphology.h; sourceTree = "<group>"; };
-		8F7D446F1F38EDA400813658 /* MPSImageMorphology.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSImageMorphology.m; sourceTree = "<group>"; };
-		8F7D44701F38EDA400813658 /* MPSImageResampling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSImageResampling.h; sourceTree = "<group>"; };
-		8F7D44711F38EDA400813658 /* MPSImageResampling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSImageResampling.m; sourceTree = "<group>"; };
-		8F7D44721F38EDA400813658 /* MPSImageThreshold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSImageThreshold.h; sourceTree = "<group>"; };
-		8F7D44731F38EDA400813658 /* MPSImageThreshold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSImageThreshold.m; sourceTree = "<group>"; };
-		8F7D44741F38EDA400813658 /* MPSImageTranspose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSImageTranspose.h; sourceTree = "<group>"; };
-		8F7D44751F38EDA400813658 /* MPSImageTranspose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSImageTranspose.m; sourceTree = "<group>"; };
-		8F7D44761F38EDA400813658 /* MPSKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSKernel.h; sourceTree = "<group>"; };
-		8F7D44771F38EDA400813658 /* MPSKernel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSKernel.m; sourceTree = "<group>"; };
-		8F7D44781F38EDA400813658 /* MPSMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSMatrix.h; sourceTree = "<group>"; };
-		8F7D44791F38EDA400813658 /* MPSMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSMatrix.m; sourceTree = "<group>"; };
-		8F7D447A1F38EDA400813658 /* MPSMatrixMultiplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSMatrixMultiplication.h; sourceTree = "<group>"; };
-		8F7D447B1F38EDA400813658 /* MPSMatrixMultiplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSMatrixMultiplication.m; sourceTree = "<group>"; };
-		8F7D447C1F38EDA400813658 /* MPSTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSTypes.h; sourceTree = "<group>"; };
 		8F7D447E1F38EDA400813658 /* CAMetalDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMetalDrawable.h; sourceTree = "<group>"; };
 		8F7D447F1F38EDA400813658 /* CAMetalDrawable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMetalDrawable.m; sourceTree = "<group>"; };
 		8F7D44AB1F38EE5600813658 /* Includes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Includes.h; path = ../../MetalPerformanceShadersStub/MetalPerformanceShadersStub/Includes.h; sourceTree = "<group>"; };
@@ -210,7 +148,6 @@
 				8F7D44B11F38F22200813658 /* ErrorDefines.h */,
 				8F7D44AB1F38EE5600813658 /* Includes.h */,
 				8F7D44531F38EDA400813658 /* CoreVideo */,
-				8F7D445D1F38EDA400813658 /* MPS */,
 				8F7D447D1F38EDA400813658 /* QuartzCore */,
 				8F7D44AD1F38EECA00813658 /* Defines.h */,
 			);
@@ -227,45 +164,6 @@
 			);
 			name = CoreVideo;
 			path = ../../MetalPerformanceShadersStub/MetalPerformanceShadersStub/CoreVideo;
-			sourceTree = "<group>";
-		};
-		8F7D445D1F38EDA400813658 /* MPS */ = {
-			isa = PBXGroup;
-			children = (
-				8F7D445E1F38EDA400813658 /* MPSCNN.h */,
-				8F7D445F1F38EDA400813658 /* MPSCNN.m */,
-				8F7D44601F38EDA400813658 /* MPSImage.h */,
-				8F7D44611F38EDA400813658 /* MPSImage.m */,
-				8F7D44621F38EDA400813658 /* MPSImageConversion.h */,
-				8F7D44631F38EDA400813658 /* MPSImageConversion.m */,
-				8F7D44641F38EDA400813658 /* MPSImageConvolution.h */,
-				8F7D44651F38EDA400813658 /* MPSImageConvolution.m */,
-				8F7D44661F38EDA400813658 /* MPSImageHistogram.h */,
-				8F7D44671F38EDA400813658 /* MPSImageHistogram.m */,
-				8F7D44681F38EDA400813658 /* MPSImageIntegral.h */,
-				8F7D44691F38EDA400813658 /* MPSImageIntegral.m */,
-				8F7D446A1F38EDA400813658 /* MPSImageKernel.h */,
-				8F7D446B1F38EDA400813658 /* MPSImageKernel.m */,
-				8F7D446C1F38EDA400813658 /* MPSImageMedian.h */,
-				8F7D446D1F38EDA400813658 /* MPSImageMedian.m */,
-				8F7D446E1F38EDA400813658 /* MPSImageMorphology.h */,
-				8F7D446F1F38EDA400813658 /* MPSImageMorphology.m */,
-				8F7D44701F38EDA400813658 /* MPSImageResampling.h */,
-				8F7D44711F38EDA400813658 /* MPSImageResampling.m */,
-				8F7D44721F38EDA400813658 /* MPSImageThreshold.h */,
-				8F7D44731F38EDA400813658 /* MPSImageThreshold.m */,
-				8F7D44741F38EDA400813658 /* MPSImageTranspose.h */,
-				8F7D44751F38EDA400813658 /* MPSImageTranspose.m */,
-				8F7D44761F38EDA400813658 /* MPSKernel.h */,
-				8F7D44771F38EDA400813658 /* MPSKernel.m */,
-				8F7D44781F38EDA400813658 /* MPSMatrix.h */,
-				8F7D44791F38EDA400813658 /* MPSMatrix.m */,
-				8F7D447A1F38EDA400813658 /* MPSMatrixMultiplication.h */,
-				8F7D447B1F38EDA400813658 /* MPSMatrixMultiplication.m */,
-				8F7D447C1F38EDA400813658 /* MPSTypes.h */,
-			);
-			name = MPS;
-			path = ../../MetalPerformanceShadersStub/MetalPerformanceShadersStub/MPS;
 			sourceTree = "<group>";
 		};
 		8F7D447D1F38EDA400813658 /* QuartzCore */ = {
@@ -285,28 +183,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F7D448A1F38EDA400813658 /* MPSImage.h in Headers */,
 				46FEC7BB1F27B82D00ADE379 /* MetalPerformanceShadersProxy.h in Headers */,
-				8F7D44921F38EDA400813658 /* MPSImageIntegral.h in Headers */,
-				8F7D44A61F38EDA400813658 /* MPSTypes.h in Headers */,
 				8F7D44B21F38F22200813658 /* ErrorDefines.h in Headers */,
-				8F7D44881F38EDA400813658 /* MPSCNN.h in Headers */,
 				8F7D44AC1F38EE5600813658 /* Includes.h in Headers */,
-				8F7D448C1F38EDA400813658 /* MPSImageConversion.h in Headers */,
-				8F7D44901F38EDA400813658 /* MPSImageHistogram.h in Headers */,
-				8F7D44A21F38EDA400813658 /* MPSMatrix.h in Headers */,
-				8F7D44A01F38EDA400813658 /* MPSKernel.h in Headers */,
-				8F7D449E1F38EDA400813658 /* MPSImageTranspose.h in Headers */,
-				8F7D449A1F38EDA400813658 /* MPSImageResampling.h in Headers */,
 				8F7D44A71F38EDA400813658 /* CAMetalDrawable.h in Headers */,
-				8F7D44981F38EDA400813658 /* MPSImageMorphology.h in Headers */,
-				8F7D449C1F38EDA400813658 /* MPSImageThreshold.h in Headers */,
-				8F7D44961F38EDA400813658 /* MPSImageMedian.h in Headers */,
-				8F7D448E1F38EDA400813658 /* MPSImageConvolution.h in Headers */,
 				8F7D44801F38EDA400813658 /* CVMetalTexture.h in Headers */,
-				8F7D44941F38EDA400813658 /* MPSImageKernel.h in Headers */,
 				8F7D44AE1F38EECA00813658 /* Defines.h in Headers */,
-				8F7D44A41F38EDA400813658 /* MPSMatrixMultiplication.h in Headers */,
 				8F7D44821F38EDA400813658 /* CVMetalTextureCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,24 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F7D44931F38EDA400813658 /* MPSImageIntegral.m in Sources */,
-				8F7D44951F38EDA400813658 /* MPSImageKernel.m in Sources */,
-				8F7D449D1F38EDA400813658 /* MPSImageThreshold.m in Sources */,
-				8F7D44971F38EDA400813658 /* MPSImageMedian.m in Sources */,
-				8F7D44A51F38EDA400813658 /* MPSMatrixMultiplication.m in Sources */,
 				8F7D44811F38EDA400813658 /* CVMetalTexture.m in Sources */,
-				8F7D44891F38EDA400813658 /* MPSCNN.m in Sources */,
-				8F7D44A11F38EDA400813658 /* MPSKernel.m in Sources */,
-				8F7D448F1F38EDA400813658 /* MPSImageConvolution.m in Sources */,
 				8F7D44831F38EDA400813658 /* CVMetalTextureCache.m in Sources */,
-				8F7D449F1F38EDA400813658 /* MPSImageTranspose.m in Sources */,
-				8F7D449B1F38EDA400813658 /* MPSImageResampling.m in Sources */,
-				8F7D44A31F38EDA400813658 /* MPSMatrix.m in Sources */,
-				8F7D448D1F38EDA400813658 /* MPSImageConversion.m in Sources */,
 				8F7D44A81F38EDA400813658 /* CAMetalDrawable.m in Sources */,
-				8F7D448B1F38EDA400813658 /* MPSImage.m in Sources */,
-				8F7D44991F38EDA400813658 /* MPSImageMorphology.m in Sources */,
-				8F7D44911F38EDA400813658 /* MPSImageHistogram.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

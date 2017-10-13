@@ -10,37 +10,6 @@
 		46C5A8DE1F27C660006E0D08 /* MetalPerformanceShadersStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C5A8D41F27C660006E0D08 /* MetalPerformanceShadersStub.framework */; };
 		46C5A8E31F27C660006E0D08 /* MetalPerformanceShadersStubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8E21F27C660006E0D08 /* MetalPerformanceShadersStubTests.m */; };
 		46C5A8E51F27C660006E0D08 /* MetalPerformanceShadersStub.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8D71F27C660006E0D08 /* MetalPerformanceShadersStub.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A90E1F27C6AC006E0D08 /* MPSCNN.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8EF1F27C6AC006E0D08 /* MPSCNN.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A90F1F27C6AC006E0D08 /* MPSCNN.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8F01F27C6AC006E0D08 /* MPSCNN.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		46C5A9101F27C6AC006E0D08 /* MPSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8F11F27C6AC006E0D08 /* MPSImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9111F27C6AC006E0D08 /* MPSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8F21F27C6AC006E0D08 /* MPSImage.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		46C5A9121F27C6AC006E0D08 /* MPSImageConvolution.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8F31F27C6AC006E0D08 /* MPSImageConvolution.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9131F27C6AC006E0D08 /* MPSImageConvolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8F41F27C6AC006E0D08 /* MPSImageConvolution.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		46C5A9141F27C6AC006E0D08 /* MPSImageHistogram.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8F51F27C6AC006E0D08 /* MPSImageHistogram.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9151F27C6AC006E0D08 /* MPSImageHistogram.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8F61F27C6AC006E0D08 /* MPSImageHistogram.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		46C5A9161F27C6AC006E0D08 /* MPSImageMedian.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8F71F27C6AC006E0D08 /* MPSImageMedian.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9171F27C6AC006E0D08 /* MPSImageMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8F81F27C6AC006E0D08 /* MPSImageMedian.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		46C5A9181F27C6AC006E0D08 /* MPSImageMorphology.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8F91F27C6AC006E0D08 /* MPSImageMorphology.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9191F27C6AC006E0D08 /* MPSImageMorphology.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8FA1F27C6AC006E0D08 /* MPSImageMorphology.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		46C5A91A1F27C6AC006E0D08 /* MPSMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8FB1F27C6AC006E0D08 /* MPSMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A91B1F27C6AC006E0D08 /* MPSMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8FC1F27C6AC006E0D08 /* MPSMatrix.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		46C5A91C1F27C6AC006E0D08 /* MPSMatrixMultiplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8FD1F27C6AC006E0D08 /* MPSMatrixMultiplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A91D1F27C6AC006E0D08 /* MPSMatrixMultiplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A8FE1F27C6AC006E0D08 /* MPSMatrixMultiplication.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		46C5A91E1F27C6AC006E0D08 /* MPSTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A8FF1F27C6AC006E0D08 /* MPSTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A91F1F27C6AC006E0D08 /* MPSImageConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A9001F27C6AC006E0D08 /* MPSImageConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9201F27C6AC006E0D08 /* MPSImageConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A9011F27C6AC006E0D08 /* MPSImageConversion.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		46C5A9211F27C6AC006E0D08 /* MPSImageIntegral.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A9021F27C6AC006E0D08 /* MPSImageIntegral.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9221F27C6AC006E0D08 /* MPSImageIntegral.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A9031F27C6AC006E0D08 /* MPSImageIntegral.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		46C5A9231F27C6AC006E0D08 /* MPSImageKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A9041F27C6AC006E0D08 /* MPSImageKernel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9241F27C6AC006E0D08 /* MPSImageKernel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A9051F27C6AC006E0D08 /* MPSImageKernel.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		46C5A9251F27C6AC006E0D08 /* MPSImageResampling.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A9061F27C6AC006E0D08 /* MPSImageResampling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9261F27C6AC006E0D08 /* MPSImageResampling.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A9071F27C6AC006E0D08 /* MPSImageResampling.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		46C5A9271F27C6AC006E0D08 /* MPSImageThreshold.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A9081F27C6AC006E0D08 /* MPSImageThreshold.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A9281F27C6AC006E0D08 /* MPSImageThreshold.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A9091F27C6AC006E0D08 /* MPSImageThreshold.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		46C5A9291F27C6AC006E0D08 /* MPSImageTranspose.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A90A1F27C6AC006E0D08 /* MPSImageTranspose.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A92A1F27C6AC006E0D08 /* MPSImageTranspose.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A90B1F27C6AC006E0D08 /* MPSImageTranspose.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		46C5A92B1F27C6AC006E0D08 /* MPSKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C5A90C1F27C6AC006E0D08 /* MPSKernel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C5A92C1F27C6AC006E0D08 /* MPSKernel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5A90D1F27C6AC006E0D08 /* MPSKernel.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		8F0693351F3522970004D3E9 /* Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0693341F3522970004D3E9 /* Defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F3283811F2BBBBE0061F068 /* CAMetalDrawable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3283801F2BBBBE0061F068 /* CAMetalDrawable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F52475E1F2BBDEF00F4789E /* CAMetalDrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F52475D1F2BBDEF00F4789E /* CAMetalDrawable.m */; settings = {COMPILER_FLAGS = "-w"; }; };
@@ -69,37 +38,6 @@
 		46C5A8DD1F27C660006E0D08 /* MetalPerformanceShadersStubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalPerformanceShadersStubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46C5A8E21F27C660006E0D08 /* MetalPerformanceShadersStubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalPerformanceShadersStubTests.m; sourceTree = "<group>"; };
 		46C5A8E41F27C660006E0D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46C5A8EF1F27C6AC006E0D08 /* MPSCNN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSCNN.h; path = MPS/MPSCNN.h; sourceTree = "<group>"; };
-		46C5A8F01F27C6AC006E0D08 /* MPSCNN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSCNN.m; path = MPS/MPSCNN.m; sourceTree = "<group>"; };
-		46C5A8F11F27C6AC006E0D08 /* MPSImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImage.h; path = MPS/MPSImage.h; sourceTree = "<group>"; };
-		46C5A8F21F27C6AC006E0D08 /* MPSImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImage.m; path = MPS/MPSImage.m; sourceTree = "<group>"; };
-		46C5A8F31F27C6AC006E0D08 /* MPSImageConvolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageConvolution.h; path = MPS/MPSImageConvolution.h; sourceTree = "<group>"; };
-		46C5A8F41F27C6AC006E0D08 /* MPSImageConvolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageConvolution.m; path = MPS/MPSImageConvolution.m; sourceTree = "<group>"; };
-		46C5A8F51F27C6AC006E0D08 /* MPSImageHistogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageHistogram.h; path = MPS/MPSImageHistogram.h; sourceTree = "<group>"; };
-		46C5A8F61F27C6AC006E0D08 /* MPSImageHistogram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageHistogram.m; path = MPS/MPSImageHistogram.m; sourceTree = "<group>"; };
-		46C5A8F71F27C6AC006E0D08 /* MPSImageMedian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageMedian.h; path = MPS/MPSImageMedian.h; sourceTree = "<group>"; };
-		46C5A8F81F27C6AC006E0D08 /* MPSImageMedian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageMedian.m; path = MPS/MPSImageMedian.m; sourceTree = "<group>"; };
-		46C5A8F91F27C6AC006E0D08 /* MPSImageMorphology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageMorphology.h; path = MPS/MPSImageMorphology.h; sourceTree = "<group>"; };
-		46C5A8FA1F27C6AC006E0D08 /* MPSImageMorphology.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageMorphology.m; path = MPS/MPSImageMorphology.m; sourceTree = "<group>"; };
-		46C5A8FB1F27C6AC006E0D08 /* MPSMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSMatrix.h; path = MPS/MPSMatrix.h; sourceTree = "<group>"; };
-		46C5A8FC1F27C6AC006E0D08 /* MPSMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSMatrix.m; path = MPS/MPSMatrix.m; sourceTree = "<group>"; };
-		46C5A8FD1F27C6AC006E0D08 /* MPSMatrixMultiplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSMatrixMultiplication.h; path = MPS/MPSMatrixMultiplication.h; sourceTree = "<group>"; };
-		46C5A8FE1F27C6AC006E0D08 /* MPSMatrixMultiplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSMatrixMultiplication.m; path = MPS/MPSMatrixMultiplication.m; sourceTree = "<group>"; };
-		46C5A8FF1F27C6AC006E0D08 /* MPSTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSTypes.h; path = MPS/MPSTypes.h; sourceTree = "<group>"; };
-		46C5A9001F27C6AC006E0D08 /* MPSImageConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageConversion.h; path = MPS/MPSImageConversion.h; sourceTree = "<group>"; };
-		46C5A9011F27C6AC006E0D08 /* MPSImageConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageConversion.m; path = MPS/MPSImageConversion.m; sourceTree = "<group>"; };
-		46C5A9021F27C6AC006E0D08 /* MPSImageIntegral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageIntegral.h; path = MPS/MPSImageIntegral.h; sourceTree = "<group>"; };
-		46C5A9031F27C6AC006E0D08 /* MPSImageIntegral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageIntegral.m; path = MPS/MPSImageIntegral.m; sourceTree = "<group>"; };
-		46C5A9041F27C6AC006E0D08 /* MPSImageKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageKernel.h; path = MPS/MPSImageKernel.h; sourceTree = "<group>"; };
-		46C5A9051F27C6AC006E0D08 /* MPSImageKernel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageKernel.m; path = MPS/MPSImageKernel.m; sourceTree = "<group>"; };
-		46C5A9061F27C6AC006E0D08 /* MPSImageResampling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageResampling.h; path = MPS/MPSImageResampling.h; sourceTree = "<group>"; };
-		46C5A9071F27C6AC006E0D08 /* MPSImageResampling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageResampling.m; path = MPS/MPSImageResampling.m; sourceTree = "<group>"; };
-		46C5A9081F27C6AC006E0D08 /* MPSImageThreshold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageThreshold.h; path = MPS/MPSImageThreshold.h; sourceTree = "<group>"; };
-		46C5A9091F27C6AC006E0D08 /* MPSImageThreshold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageThreshold.m; path = MPS/MPSImageThreshold.m; sourceTree = "<group>"; };
-		46C5A90A1F27C6AC006E0D08 /* MPSImageTranspose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSImageTranspose.h; path = MPS/MPSImageTranspose.h; sourceTree = "<group>"; };
-		46C5A90B1F27C6AC006E0D08 /* MPSImageTranspose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSImageTranspose.m; path = MPS/MPSImageTranspose.m; sourceTree = "<group>"; };
-		46C5A90C1F27C6AC006E0D08 /* MPSKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSKernel.h; path = MPS/MPSKernel.h; sourceTree = "<group>"; };
-		46C5A90D1F27C6AC006E0D08 /* MPSKernel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSKernel.m; path = MPS/MPSKernel.m; sourceTree = "<group>"; };
 		8F0693341F3522970004D3E9 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 		8F3283801F2BBBBE0061F068 /* CAMetalDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMetalDrawable.h; sourceTree = "<group>"; };
 		8F52475D1F2BBDEF00F4789E /* CAMetalDrawable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMetalDrawable.m; sourceTree = "<group>"; };
@@ -151,13 +89,12 @@
 		46C5A8D61F27C660006E0D08 /* MetalPerformanceShadersStub */ = {
 			isa = PBXGroup;
 			children = (
+				8F7D44A91F38EE2600813658 /* Includes.h */,
 				8F0693341F3522970004D3E9 /* Defines.h */,
 				8F32837F1F2BBBBE0061F068 /* QuartzCore */,
 				8F8568851F2B78F400FCC79D /* CoreVideo */,
-				46C5A8EE1F27C6A0006E0D08 /* MPS */,
 				46C5A8D71F27C660006E0D08 /* MetalPerformanceShadersStub.h */,
 				46C5A8D81F27C660006E0D08 /* Info.plist */,
-				8F7D44A91F38EE2600813658 /* Includes.h */,
 				8F7D44AF1F38F1D500813658 /* ErrorDefines.h */,
 			);
 			path = MetalPerformanceShadersStub;
@@ -170,44 +107,6 @@
 				46C5A8E41F27C660006E0D08 /* Info.plist */,
 			);
 			path = MetalPerformanceShadersStubTests;
-			sourceTree = "<group>";
-		};
-		46C5A8EE1F27C6A0006E0D08 /* MPS */ = {
-			isa = PBXGroup;
-			children = (
-				46C5A8EF1F27C6AC006E0D08 /* MPSCNN.h */,
-				46C5A8F01F27C6AC006E0D08 /* MPSCNN.m */,
-				46C5A8F11F27C6AC006E0D08 /* MPSImage.h */,
-				46C5A8F21F27C6AC006E0D08 /* MPSImage.m */,
-				46C5A8F31F27C6AC006E0D08 /* MPSImageConvolution.h */,
-				46C5A8F41F27C6AC006E0D08 /* MPSImageConvolution.m */,
-				46C5A8F51F27C6AC006E0D08 /* MPSImageHistogram.h */,
-				46C5A8F61F27C6AC006E0D08 /* MPSImageHistogram.m */,
-				46C5A8F71F27C6AC006E0D08 /* MPSImageMedian.h */,
-				46C5A8F81F27C6AC006E0D08 /* MPSImageMedian.m */,
-				46C5A8F91F27C6AC006E0D08 /* MPSImageMorphology.h */,
-				46C5A8FA1F27C6AC006E0D08 /* MPSImageMorphology.m */,
-				46C5A8FB1F27C6AC006E0D08 /* MPSMatrix.h */,
-				46C5A8FC1F27C6AC006E0D08 /* MPSMatrix.m */,
-				46C5A8FD1F27C6AC006E0D08 /* MPSMatrixMultiplication.h */,
-				46C5A8FE1F27C6AC006E0D08 /* MPSMatrixMultiplication.m */,
-				46C5A8FF1F27C6AC006E0D08 /* MPSTypes.h */,
-				46C5A9001F27C6AC006E0D08 /* MPSImageConversion.h */,
-				46C5A9011F27C6AC006E0D08 /* MPSImageConversion.m */,
-				46C5A9021F27C6AC006E0D08 /* MPSImageIntegral.h */,
-				46C5A9031F27C6AC006E0D08 /* MPSImageIntegral.m */,
-				46C5A9041F27C6AC006E0D08 /* MPSImageKernel.h */,
-				46C5A9051F27C6AC006E0D08 /* MPSImageKernel.m */,
-				46C5A9061F27C6AC006E0D08 /* MPSImageResampling.h */,
-				46C5A9071F27C6AC006E0D08 /* MPSImageResampling.m */,
-				46C5A9081F27C6AC006E0D08 /* MPSImageThreshold.h */,
-				46C5A9091F27C6AC006E0D08 /* MPSImageThreshold.m */,
-				46C5A90A1F27C6AC006E0D08 /* MPSImageTranspose.h */,
-				46C5A90B1F27C6AC006E0D08 /* MPSImageTranspose.m */,
-				46C5A90C1F27C6AC006E0D08 /* MPSKernel.h */,
-				46C5A90D1F27C6AC006E0D08 /* MPSKernel.m */,
-			);
-			name = MPS;
 			sourceTree = "<group>";
 		};
 		8F32837F1F2BBBBE0061F068 /* QuartzCore */ = {
@@ -237,28 +136,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46C5A9181F27C6AC006E0D08 /* MPSImageMorphology.h in Headers */,
 				46C5A8E51F27C660006E0D08 /* MetalPerformanceShadersStub.h in Headers */,
-				46C5A9101F27C6AC006E0D08 /* MPSImage.h in Headers */,
 				8F8568891F2B78F400FCC79D /* CVMetalTextureCache.h in Headers */,
 				8F7D44B01F38F20900813658 /* ErrorDefines.h in Headers */,
-				46C5A9231F27C6AC006E0D08 /* MPSImageKernel.h in Headers */,
-				46C5A9121F27C6AC006E0D08 /* MPSImageConvolution.h in Headers */,
-				46C5A90E1F27C6AC006E0D08 /* MPSCNN.h in Headers */,
-				46C5A9211F27C6AC006E0D08 /* MPSImageIntegral.h in Headers */,
 				8F3283811F2BBBBE0061F068 /* CAMetalDrawable.h in Headers */,
-				46C5A92B1F27C6AC006E0D08 /* MPSKernel.h in Headers */,
-				46C5A9141F27C6AC006E0D08 /* MPSImageHistogram.h in Headers */,
 				8F7D44AA1F38EE2600813658 /* Includes.h in Headers */,
-				46C5A91A1F27C6AC006E0D08 /* MPSMatrix.h in Headers */,
-				46C5A9161F27C6AC006E0D08 /* MPSImageMedian.h in Headers */,
-				46C5A91C1F27C6AC006E0D08 /* MPSMatrixMultiplication.h in Headers */,
-				46C5A9291F27C6AC006E0D08 /* MPSImageTranspose.h in Headers */,
-				46C5A91F1F27C6AC006E0D08 /* MPSImageConversion.h in Headers */,
-				46C5A91E1F27C6AC006E0D08 /* MPSTypes.h in Headers */,
 				8F0693351F3522970004D3E9 /* Defines.h in Headers */,
-				46C5A9271F27C6AC006E0D08 /* MPSImageThreshold.h in Headers */,
-				46C5A9251F27C6AC006E0D08 /* MPSImageResampling.h in Headers */,
 				8F8568881F2B78F400FCC79D /* CVMetalTexture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,22 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46C5A9171F27C6AC006E0D08 /* MPSImageMedian.m in Sources */,
-				46C5A9111F27C6AC006E0D08 /* MPSImage.m in Sources */,
-				46C5A92A1F27C6AC006E0D08 /* MPSImageTranspose.m in Sources */,
 				8F52475E1F2BBDEF00F4789E /* CAMetalDrawable.m in Sources */,
-				46C5A90F1F27C6AC006E0D08 /* MPSCNN.m in Sources */,
-				46C5A9131F27C6AC006E0D08 /* MPSImageConvolution.m in Sources */,
-				46C5A9261F27C6AC006E0D08 /* MPSImageResampling.m in Sources */,
-				46C5A91B1F27C6AC006E0D08 /* MPSMatrix.m in Sources */,
-				46C5A9241F27C6AC006E0D08 /* MPSImageKernel.m in Sources */,
-				46C5A9281F27C6AC006E0D08 /* MPSImageThreshold.m in Sources */,
-				46C5A9191F27C6AC006E0D08 /* MPSImageMorphology.m in Sources */,
-				46C5A9151F27C6AC006E0D08 /* MPSImageHistogram.m in Sources */,
-				46C5A9201F27C6AC006E0D08 /* MPSImageConversion.m in Sources */,
-				46C5A92C1F27C6AC006E0D08 /* MPSKernel.m in Sources */,
-				46C5A9221F27C6AC006E0D08 /* MPSImageIntegral.m in Sources */,
-				46C5A91D1F27C6AC006E0D08 /* MPSMatrixMultiplication.m in Sources */,
 				C189844C3DB62952BDC5F4A3 /* CVMetalTexture.m in Sources */,
 				C1898CEAE4C760B218AAE17F /* CVMetalTextureCache.m in Sources */,
 			);
