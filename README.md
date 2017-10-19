@@ -23,11 +23,7 @@ It's usually a problem not to be able to **compile** for a simulator target when
 
 ## Usage
 
-Apart from including this framework, in order for your project to work with it (and for real Metal of course!), you need to do some minor changes.
-
-### Main change
-
-Wherever you use `MetalPerformanceShaders` you need to import MetalPerformanceShadersProxy as next line indicates:
+If you use Metal, you probably use `CVMetalTexture.h` and `CVMetalTextureCache.h` from `CoreVideo` or `CAMetalDrawable.h` from `QuartzCore`. But they are not available when targetting the simulator. To make them available, just do:
 
 ```swift
 import MetalPerformanceShadersProxy
@@ -36,16 +32,6 @@ import MetalPerformanceShadersProxy
 This pod will add **no stub** to devices (**no footprint!**), as the proxy uses preprocessor macros to decide which implementation to use.
 
 Note that if a stub method is called, a exception will be thrown.
-
-### Additional imports
-
-There are additional types that depend on Metal that need the framework to be imported in order to work on simulators. They come from the following headers:
-
-* `MTLFunctionConstantValues.h` from `Metal`.
-* `CVMetalTexture.h` and `CVMetalTextureCache.h` from `CoreVideo`.
-* `CAMetalDrawable.h` from `QuartzCore`.
-
-So just import the proxy if using types coming from them.
 
 ### currentDrawable from MTKView
 
@@ -70,8 +56,6 @@ If for some reason you want to control when to use the stub, you can import the 
 ```swift
 #if condition
     import MetalPerformanceShadersStub
-#else
-    import MetalPerformanceShaders
 #endif
 ```
 
@@ -83,6 +67,8 @@ See [CREATION](CREATION.md) for an explanation.
 
 * iOS 9.0+
 * Xcode 9.0+
+
+To use with previous Xcode versions, see previous releases.
 
 ## Getting involved
 
