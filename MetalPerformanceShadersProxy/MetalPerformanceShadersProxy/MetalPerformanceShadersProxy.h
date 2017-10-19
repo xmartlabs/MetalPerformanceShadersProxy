@@ -18,6 +18,4 @@ FOUNDATION_EXPORT const unsigned char MetalPerformanceShadersProxyVersionString[
 
 #if STUB_ENABLED
     #import "Includes.h"
-#else
-    @import MetalPerformanceShaders;
 #endif

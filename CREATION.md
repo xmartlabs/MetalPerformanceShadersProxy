@@ -2,6 +2,13 @@ We copied the MetalPerformanceShaders (MPS) Objective-C header files from Xcode 
 
 After doing so, we noticed some conflicts described hereafter, where some were found after diffing the frameworks folders.
 
+> To do the diff between the simulator and device SDKs, do:
+
+```
+cd /Applications/Xcode\ 9.app/Contents/Developer/Platforms
+diff -rq -x "*.tbd" iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+```
+
 We had to change all `NSUInteger` occurrences to `NSInteger` as Swift interpreted correctly as `UInt` for these files but not for others (such as the in real implementation, they were interpreted as `Int`).
 
 `MTLFunctionConstantValues` implementation was not present on simulator, despite it comes from `Metal` and not from `MetalPerformanceShaders`. So, we added a stub implementation for it.
@@ -13,3 +20,7 @@ We realized that the property `currentDrawable` in `MTKView` is of type `MTLDraw
 For each stub method, an exception thrown is added to the body.
 
 Finally, we created a proxy that, using precompiler macros, imports the stub implementations or the real ones.
+
+**Updates**
+
+As from iOS 11 (Xcode9) MPS is available for simulator.

@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { "Xmartlabs SRL" => "swift@xmartlabs.com" }
   s.source           = { git: "https://github.com/xmartlabs/MetalPerformanceShadersProxy.git", tag: s.version.to_s }
   s.social_media_url = 'https://twitter.com/xmartlabs'
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.requires_arc = true
   s.default_subspec = 'Proxy'
 
