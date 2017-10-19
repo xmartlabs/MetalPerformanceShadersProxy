@@ -8,7 +8,8 @@
 
 #import <XCTest/XCTest.h>
 #import <Metal/Metal.h>
-#import <MetalPerformanceShadersStub.h>
+#import <MetalKit/MetalKit.h>
+#import <MetalPerformanceShadersStub/MetalPerformanceShadersStub.h>
 
 @interface MetalPerformanceShadersStubTests : XCTestCase
 
@@ -27,9 +28,10 @@
 }
 
 - (void)testStub {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
-    
+    // WE ARE JUST TESTING THAT CODE COMPILES, IT WILL CRASH IF WE EXCECUTE IT.
+    MTKView * view;
+    id<CAMetalDrawable> drawable = (id<CAMetalDrawable>)[view currentDrawable];
+    id a = drawable.texture;
 }
 
 
