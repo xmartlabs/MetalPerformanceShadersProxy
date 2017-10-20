@@ -1,10 +1,26 @@
-We copied the MetalPerformanceShaders (MPS) Objective-C header files from Xcode 8.3.2. Then we used [AppCode](https://www.jetbrains.com/objc/) to easily create stubs for them. At first, we disabled all "unused class/member/variable" warnings to then navigate through the "unimplemented class" errors using <kbd>F2</kbd>. For each of them, we created empty implementations using <kbd>⌥ Enter</kbd>. Then, with the same key bindings we created stub implementations for the unimplemented functions. Then, we went back using <kbd>⌥ [</kbd>. And so on. Classes from the same header were later put together in the same file.
+# CREATION
 
-After doing so, we noticed some conflicts described hereafter, where some were found after diffing the frameworks folders.
+## Update (Oct 19, 2017)
 
-We had to change all `NSUInteger` occurrences to `NSInteger` as Swift interpreted correctly as `UInt` for these files but not for others (such as the in real implementation, they were interpreted as `Int`).
+As from Xcode 9:
 
-`MTLFunctionConstantValues` implementation was not present on simulator, despite it comes from `Metal` and not from `MetalPerformanceShaders`. So, we added a stub implementation for it.
+* MetalPerformanceShaders is available for simulator.
+* `MTLFunctionConstantValues` implementation is now present on simulator.
+
+# How the stubs were created
+
+~~We copied the MetalPerformanceShaders (MPS) Objective-C header files from Xcode 8.3.2. Then we used [AppCode](https://www.jetbrains.com/objc/) to easily create stubs for them. At first, we disabled all "unused class/member/variable" warnings to then navigate through the "unimplemented class" errors using <kbd>F2</kbd>. For each of them, we created empty implementations using <kbd>⌥ Enter</kbd>. Then, with the same key bindings we created stub implementations for the unimplemented functions. Then, we went back using <kbd>⌥ [</kbd>. And so on. Classes from the same header were later put together in the same file.~~
+
+We noticed some conflicts after diffing the frameworks folders:
+
+```shell
+cd /Applications/Xcode.app/Contents/Developer/Platforms
+diff -rq -x "*.tbd" iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+```
+
+~~We had to change all `NSUInteger` occurrences to `NSInteger` as Swift interpreted correctly as `UInt` for these files but not for others (such as the in real implementation, they were interpreted as `Int`).~~
+
+~~`MTLFunctionConstantValues` implementation was not present on simulator, despite it comes from `Metal` and not from `MetalPerformanceShaders`. So, we added a stub implementation for it.~~
 
 `CVMetalTexture` and `CVMetalTextureCache` from `CoreVideo` have missing declarations if Metal is not available, so we copied that too, commenting out the Metal check because it depends on a variable defined in the framework. We also changed the include guard to a custom one, otherwise the copied headers won't be imported.
 
@@ -12,4 +28,4 @@ We realized that the property `currentDrawable` in `MTKView` is of type `MTLDraw
 
 For each stub method, an exception thrown is added to the body.
 
-Finally, we created a proxy that, using precompiler macros, imports the stub implementations or the real ones.
+Finally, we created a proxy that, using precompiler macros, imports the stub implementations ~~or the real ones~~ when targetting the simulator.

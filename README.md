@@ -3,7 +3,7 @@
 <p align="left">
 <a href="https://travis-ci.org/xmartlabs/MetalPerformanceShadersProxy"><img src="https://travis-ci.org/xmartlabs/MetalPerformanceShadersProxy.svg?branch=master" alt="Build status" /></a>
 <img src="https://img.shields.io/badge/platform-iOS-blue.svg?style=flat" alt="Platform iOS" />
-<a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/swift3-compatible-4BC51D.svg?style=flat" alt="Swift 3 compatible" /></a>
+<a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/swift4-compatible-4BC51D.svg?style=flat" alt="Swift 4 compatible" /></a>
 <a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage compatible" /></a>
 <a href="https://cocoapods.org/pods/XLActionController"><img src="https://img.shields.io/cocoapods/v/MetalPerformanceShadersProxy.svg" alt="CocoaPods compatible" /></a>
 <a href="https://raw.githubusercontent.com/xmartlabs/MetalPerformanceShadersProxy/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License: MIT" /></a>
@@ -23,17 +23,7 @@ It's usually a problem not to be able to **compile** for a simulator target when
 
 ## Usage
 
-Apart from including this framework, in order for your project to work with it (and for real Metal of course!), you need to do some minor changes.
-
-### Main change
-
-In Swift, you need to change every occurence of
-
-```swift
-import MetalPerformanceShaders
-```
-
-to
+If you use Metal, you probably use `CVMetalTexture.h` and `CVMetalTextureCache.h` from `CoreVideo` or `CAMetalDrawable.h` from `QuartzCore`. But they are not available when targetting the simulator. To make them available, just do:
 
 ```swift
 import MetalPerformanceShadersProxy
@@ -42,16 +32,6 @@ import MetalPerformanceShadersProxy
 This pod will add **no stub** to devices (**no footprint!**), as the proxy uses preprocessor macros to decide which implementation to use.
 
 Note that if a stub method is called, a exception will be thrown.
-
-### Additional imports
-
-There are additional types that depend on Metal that need the framework to be imported in order to work on simulators. They come from the following headers:
-
-* `MTLFunctionConstantValues.h` from `Metal`.
-* `CVMetalTexture.h` and `CVMetalTextureCache.h` from `CoreVideo`.
-* `CAMetalDrawable.h` from `QuartzCore`.
-
-So just import the proxy if using types coming from them.
 
 ### currentDrawable from MTKView
 
@@ -76,8 +56,6 @@ If for some reason you want to control when to use the stub, you can import the 
 ```swift
 #if condition
     import MetalPerformanceShadersStub
-#else
-    import MetalPerformanceShaders
 #endif
 ```
 
@@ -88,7 +66,9 @@ See [CREATION](CREATION.md) for an explanation.
 ## Requirements
 
 * iOS 9.0+
-* Xcode 8.3+
+* Xcode 9.0+
+
+To use with previous Xcode versions, see previous releases.
 
 ## Getting involved
 
@@ -117,13 +97,13 @@ As a real example, you can check out the [Bender](https://github.com/xmartlabs/B
 To install MetalPerformanceShadersProxy, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MetalPerformanceShadersProxy', '~> 0.1'
+pod 'MetalPerformanceShadersProxy', '~> 0.2'
 ```
 
 If you just want the stub:
 
 ```ruby
-pod 'MetalPerformanceShadersProxy/Stub', '~> 0.1'
+pod 'MetalPerformanceShadersProxy/Stub', '~> 0.2'
 ```
 
 ### Carthage
@@ -133,7 +113,7 @@ pod 'MetalPerformanceShadersProxy/Stub', '~> 0.1'
 To install MetalPerformanceShadersProxy, simply add the following line to your Cartfile:
 
 ```ogdl
-github "xmartlabs/MetalPerformanceShadersProxy" ~> 0.1
+github "xmartlabs/MetalPerformanceShadersProxy" ~> 0.2
 ```
 
 ## Author
