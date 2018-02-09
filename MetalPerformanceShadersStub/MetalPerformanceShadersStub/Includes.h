@@ -9,3 +9,5 @@
 #import "CVMetalTexture.h"
 #import "CVMetalTextureCache.h"
 #import "CAMetalDrawable.h"
+
+#import "CGBase.h"
