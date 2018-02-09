@@ -92,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				8F7D44A91F38EE2600813658 /* Includes.h */,
-				8FF55821202DF335001DFCD5 /* Core Graphics */,
+				8FF55821202DF335001DFCD5 /* CoreGraphics */,
 				8F0693341F3522970004D3E9 /* Defines.h */,
 				8F32837F1F2BBBBE0061F068 /* QuartzCore */,
 				8F8568851F2B78F400FCC79D /* CoreVideo */,
@@ -132,12 +132,12 @@
 			path = CoreVideo;
 			sourceTree = "<group>";
 		};
-		8FF55821202DF335001DFCD5 /* Core Graphics */ = {
+		8FF55821202DF335001DFCD5 /* CoreGraphics */ = {
 			isa = PBXGroup;
 			children = (
 				8FF55822202DF378001DFCD5 /* CGBase.h */,
 			);
-			path = "Core Graphics";
+			path = CoreGraphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
