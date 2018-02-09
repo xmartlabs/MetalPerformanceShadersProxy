@@ -19,6 +19,7 @@
 		8F7D44AC1F38EE5600813658 /* Includes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44AB1F38EE5600813658 /* Includes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F7D44AE1F38EECA00813658 /* Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44AD1F38EECA00813658 /* Defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F7D44B21F38F22200813658 /* ErrorDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7D44B11F38F22200813658 /* ErrorDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FF55839202E0DF0001DFCD5 /* CGBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF55833202E0CD3001DFCD5 /* CGBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		8F7D44AB1F38EE5600813658 /* Includes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Includes.h; path = ../../MetalPerformanceShadersStub/MetalPerformanceShadersStub/Includes.h; sourceTree = "<group>"; };
 		8F7D44AD1F38EECA00813658 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 		8F7D44B11F38F22200813658 /* ErrorDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErrorDefines.h; path = ../../MetalPerformanceShadersStub/MetalPerformanceShadersStub/ErrorDefines.h; sourceTree = "<group>"; };
+		8FF55833202E0CD3001DFCD5 /* CGBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGBase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		8F7D44501F38ED9200813658 /* Stub */ = {
 			isa = PBXGroup;
 			children = (
+				8FF55834202E0CD3001DFCD5 /* CoreGraphics */,
 				8F7D44B11F38F22200813658 /* ErrorDefines.h */,
 				8F7D44AB1F38EE5600813658 /* Includes.h */,
 				8F7D44531F38EDA400813658 /* CoreVideo */,
@@ -176,6 +179,15 @@
 			path = ../../MetalPerformanceShadersStub/MetalPerformanceShadersStub/QuartzCore;
 			sourceTree = "<group>";
 		};
+		8FF55834202E0CD3001DFCD5 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				8FF55833202E0CD3001DFCD5 /* CGBase.h */,
+			);
+			name = CoreGraphics;
+			path = ../../MetalPerformanceShadersStub/MetalPerformanceShadersStub/CoreGraphics;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -189,6 +201,7 @@
 				8F7D44A71F38EDA400813658 /* CAMetalDrawable.h in Headers */,
 				8F7D44801F38EDA400813658 /* CVMetalTexture.h in Headers */,
 				8F7D44AE1F38EECA00813658 /* Defines.h in Headers */,
+				8FF55839202E0DF0001DFCD5 /* CGBase.h in Headers */,
 				8F7D44821F38EDA400813658 /* CVMetalTextureCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
