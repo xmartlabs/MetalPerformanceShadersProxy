@@ -97,13 +97,13 @@ As a real example, you can check out the [Bender](https://github.com/xmartlabs/B
 To install MetalPerformanceShadersProxy, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MetalPerformanceShadersProxy', '~> 0.2'
+pod 'MetalPerformanceShadersProxy', '~> 0.3'
 ```
 
 If you just want the stub:
 
 ```ruby
-pod 'MetalPerformanceShadersProxy/Stub', '~> 0.2'
+pod 'MetalPerformanceShadersProxy/Stub', '~> 0.3'
 ```
 
 ### Carthage

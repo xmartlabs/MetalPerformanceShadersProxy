@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.3.0](https://github.com/xmartlabs/MetalPerformanceShadersProxy/releases/tag/0.3.0)
+
+* Xcode 10 compatibility
+
 ## [0.2.0](https://github.com/xmartlabs/MetalPerformanceShadersProxy/releases/tag/0.2.0)
 
 * Xcode 9 compatibility. For usage with previous Xcode versions, use version 0.1.5.
