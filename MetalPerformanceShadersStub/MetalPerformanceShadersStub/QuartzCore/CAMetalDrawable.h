@@ -41,7 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
 /* Note: The default value of the `opaque' property for CAMetalLayer
  * instances is true. */
 
-CA_CLASS_AVAILABLE (10.11, 8.0, 9.0, 2.0)
+API_AVAILABLE (macos(10.11), ios(8.0), tvos(9.0), watchos(2.0))
 @interface CAMetalLayer : CALayer
 {
 @private
